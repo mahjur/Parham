@@ -1,0 +1,931 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ArgumentDeclaration	../include/Declaration.hxx	/^class ArgumentDeclaration: public Declaration$/;"	c
+ArgumentDeclaration	Declaration.cxx	/^ArgumentDeclaration::ArgumentDeclaration (Type *_type, Identifier *_identifier, ComponentType *_component, int _line)$/;"	f	class:ArgumentDeclaration
+ArgumentDeclarationList	../include/Declaration.hxx	/^class ArgumentDeclarationList: public NT$/;"	c
+ArgumentDeclarationList	Declaration.cxx	/^ArgumentDeclarationList::ArgumentDeclarationList (ComponentType *_component, int _line)$/;"	f	class:ArgumentDeclarationList
+Array	../include/Array.hxx	/^		Array ()$/;"	f	class:Array
+Array	../include/Array.hxx	/^class Array$/;"	c
+ArrayExpression	../include/Expression.hxx	/^class ArrayExpression: public Expression$/;"	c
+ArrayExpression	Expression.cxx	/^ArrayExpression::ArrayExpression (Expression *_base, Expression *_index)$/;"	f	class:ArrayExpression
+ArrayInitializer	../include/Declaration.hxx	/^class ArrayInitializer: public Initializer$/;"	c
+ArrayInitializer	Declaration.cxx	/^ArrayInitializer::ArrayInitializer (Array<Initializer> *_list, ComponentType *_component, int _line)$/;"	f	class:ArrayInitializer
+ArrayType	../include/Type.hxx	/^class ArrayType: public Type$/;"	c
+ArrayType	Type.cxx	/^ArrayType::ArrayType (Type *_base, IntegerExpression *_index)$/;"	f	class:ArrayType
+AssignExpression	../include/Expression.hxx	/^class AssignExpression: public Expression$/;"	c
+AssignExpression	Expression.cxx	/^AssignExpression::AssignExpression (Expression *_left, Expression *_right)$/;"	f	class:AssignExpression
+AssociationDeclaration	../include/Declaration.hxx	/^class AssociationDeclaration: public PropertyDeclaration$/;"	c
+AssociationDeclaration	Declaration.cxx	/^AssociationDeclaration::AssociationDeclaration (ClassType *_container, Modifier *_modifier, Type *_type)$/;"	f	class:AssociationDeclaration
+AttributeDeclaration	../include/Declaration.hxx	/^class AttributeDeclaration: public PropertyDeclaration$/;"	c
+AttributeDeclaration	Declaration.cxx	/^AttributeDeclaration::AttributeDeclaration (Modifier *_modifier, Type *_type, InitializedIdentifier *ii, ComponentType *_component, int _line)$/;"	f	class:AttributeDeclaration
+BinaryExpression	../include/Expression.hxx	/^class BinaryExpression: public Expression$/;"	c
+BinaryExpression	Expression.cxx	/^BinaryExpression::BinaryExpression (int _op, Expression *_left, Expression *_right)$/;"	f	class:BinaryExpression
+BlockSpace	../include/NameSpace.hxx	/^class BlockSpace: public NameSpace$/;"	c
+BlockSpace	NameSpace.cxx	/^BlockSpace::BlockSpace (BlockSpace *_parent)$/;"	f	class:BlockSpace
+BlockStatement	../include/Statement.hxx	/^class BlockStatement: public Statement$/;"	c
+BlockStatement	Statement.cxx	/^BlockStatement::BlockStatement (Array<Statement> *_list, ComponentType *_component, int _line)$/;"	f	class:BlockStatement
+BreakStatement	../include/Statement.hxx	/^class BreakStatement: public Statement$/;"	c
+BreakStatement	Statement.cxx	/^BreakStatement::BreakStatement (ComponentType *_component, int _line)$/;"	f	class:BreakStatement
+CAST_DOWN	Cast.cxx	4;"	d	file:
+CAST_UP	Cast.cxx	5;"	d	file:
+CallExpression	../include/Expression.hxx	/^class CallExpression: public Expression$/;"	c
+CallExpression	Expression.cxx	/^CallExpression::CallExpression (Expression *_method, ExpressionList *_argList)$/;"	f	class:CallExpression
+Cast	../include/Cast.hxx	/^class Cast$/;"	c
+CastExpression	../include/Expression.hxx	/^class CastExpression: public Expression$/;"	c
+CastExpression	Expression.cxx	/^CastExpression::CastExpression (Type *_type, Expression *_expression)$/;"	f	class:CastExpression
+CastItem	../include/Cast.hxx	/^class CastItem$/;"	c
+CastItem	Cast.cxx	/^CastItem::CastItem (int _direction, PropertyDeclaration *_property)$/;"	f	class:CastItem
+CastObject	../include/Cast.hxx	/^class CastObject$/;"	c
+ClassConstructor	../include/ConstructorManager.hxx	/^class ClassConstructor$/;"	c
+ClassConstructor	ConstructorManager.cxx	/^ClassConstructor::ClassConstructor (ClassType *ct)$/;"	f	class:ClassConstructor
+ClassResolve	../include/ResolveManager.hxx	/^class ClassResolve$/;"	c
+ClassResolve	ResolveManager.cxx	/^ClassResolve::ClassResolve (ClassType *ct)$/;"	f	class:ClassResolve
+ClassSpace	../include/NameSpace.hxx	/^class ClassSpace: public ContainerSpace$/;"	c
+ClassSpace	NameSpace.cxx	/^ClassSpace::ClassSpace ()$/;"	f	class:ClassSpace
+ClassType	../include/Type.hxx	/^class ClassType: public ContainerType$/;"	c
+ClassType	Type.cxx	/^ClassType::ClassType (bool _isInternal, Identifier *_identifier)$/;"	f	class:ClassType
+ClassType	Type.cxx	/^ClassType::ClassType (bool _isInternal, Modifier *_modifier, Identifier *_identifier)$/;"	f	class:ClassType
+ComponentDeclaration	../include/Declaration.hxx	/^class ComponentDeclaration: public PropertyDeclaration$/;"	c
+ComponentDeclaration	Declaration.cxx	/^ComponentDeclaration::ComponentDeclaration (DeclarationType _which, ClassType *_container, Modifier *_modifier, Type *_type, bool _isRef, Identifier *_identifier, ComponentType *_component, int _line)$/;"	f	class:ComponentDeclaration
+ComponentResolve	../include/ResolveManager.hxx	/^class ComponentResolve: public FieldList, public ComponentSpace$/;"	c
+ComponentSpace	../include/NameSpace.hxx	/^class ComponentSpace: public ContainerSpace$/;"	c
+ComponentType	../include/Component.hxx	/^class ComponentType: public ContainerType$/;"	c
+ComponentType	Component.cxx	/^ComponentType::ComponentType (const char *_fname)$/;"	f	class:ComponentType
+ConditionalExpression	../include/Expression.hxx	/^class ConditionalExpression: public Expression$/;"	c
+ConditionalExpression	Expression.cxx	/^ConditionalExpression::ConditionalExpression (Expression *_condition, Expression *_expression0, Expression *_expression1)$/;"	f	class:ConditionalExpression
+ConstructorCall	../include/Expression.hxx	/^class ConstructorCall: public ConstructorCallExpression$/;"	c
+ConstructorCall	Expression.cxx	/^ConstructorCall::ConstructorCall (ExpressionList *_argList, ComponentType *_component, int _line)$/;"	f	class:ConstructorCall
+ConstructorCallByID	../include/Expression.hxx	/^class ConstructorCallByID: public ConstructorCall$/;"	c
+ConstructorCallByID	Expression.cxx	/^ConstructorCallByID::ConstructorCallByID (Identifier *_identifier, ExpressionList *_argList)$/;"	f	class:ConstructorCallByID
+ConstructorCallByQID	../include/Expression.hxx	/^class ConstructorCallByQID: public ConstructorCall$/;"	c
+ConstructorCallByQID	Expression.cxx	/^ConstructorCallByQID::ConstructorCallByQID (QualifiedIdentifier *_qid, ExpressionList *_argList)$/;"	f	class:ConstructorCallByQID
+ConstructorCallBySet	../include/Expression.hxx	/^class ConstructorCallBySet: public ConstructorCall$/;"	c
+ConstructorCallBySet	Expression.cxx	/^ConstructorCallBySet::ConstructorCallBySet (ClassType *_set, ExpressionList *_argList, ComponentType *_component, int _line)$/;"	f	class:ConstructorCallBySet
+ConstructorCallExpression	../include/Expression.hxx	/^class ConstructorCallExpression: public Expression$/;"	c
+ConstructorCallExpression	Expression.cxx	/^ConstructorCallExpression::ConstructorCallExpression (Type *_type, ExpressionList *_argList, ComponentType *_component, int _line)$/;"	f	class:ConstructorCallExpression
+ConstructorCallImplicit	../include/Expression.hxx	/^class ConstructorCallImplicit: public ConstructorCall$/;"	c
+ConstructorCallImplicit	Expression.cxx	/^ConstructorCallImplicit::ConstructorCallImplicit (ComponentType *_component, int _line)$/;"	f	class:ConstructorCallImplicit
+ConstructorDeclaration	../include/Declaration.hxx	/^class ConstructorDeclaration: public ExecutionDeclaration$/;"	c
+ConstructorDeclaration	Declaration.cxx	/^ConstructorDeclaration::ConstructorDeclaration (ClassType *_set, ArgumentDeclarationList *_argList)$/;"	f	class:ConstructorDeclaration
+ContainerSpace	../include/NameSpace.hxx	/^class ContainerSpace: public NameSpace$/;"	c
+ContainerType	../include/Type.hxx	/^class ContainerType: public NamedType$/;"	c
+ContainerType	Type.cxx	/^ContainerType::ContainerType (WhichType _which, Identifier *_identifier, ContainerSpace *_nsp)$/;"	f	class:ContainerType
+ContinueStatement	../include/Statement.hxx	/^class ContinueStatement: public Statement$/;"	c
+ContinueStatement	Statement.cxx	/^ContinueStatement::ContinueStatement (ComponentType *_component, int _line)$/;"	f	class:ContinueStatement
+DECL_ARGUMENT	../include/Declaration.hxx	/^		enum DeclarationType {DECL_VALUE, DECL_ARGUMENT, DECL_ATTRIBUTE, DECL_CONSTRUCTOR, DECL_METHOD, DECL_INSTANCE, DECL_EXPLICIT, DECL_MAP, DECL_ASSOCIATION, DECL_INCLUSION, DECL_SUPER, DECL_LOCAL, DECL_ENUMERATION} which;$/;"	e	enum:Declaration::DeclarationType
+DECL_ASSOCIATION	../include/Declaration.hxx	/^		enum DeclarationType {DECL_VALUE, DECL_ARGUMENT, DECL_ATTRIBUTE, DECL_CONSTRUCTOR, DECL_METHOD, DECL_INSTANCE, DECL_EXPLICIT, DECL_MAP, DECL_ASSOCIATION, DECL_INCLUSION, DECL_SUPER, DECL_LOCAL, DECL_ENUMERATION} which;$/;"	e	enum:Declaration::DeclarationType
+DECL_ATTRIBUTE	../include/Declaration.hxx	/^		enum DeclarationType {DECL_VALUE, DECL_ARGUMENT, DECL_ATTRIBUTE, DECL_CONSTRUCTOR, DECL_METHOD, DECL_INSTANCE, DECL_EXPLICIT, DECL_MAP, DECL_ASSOCIATION, DECL_INCLUSION, DECL_SUPER, DECL_LOCAL, DECL_ENUMERATION} which;$/;"	e	enum:Declaration::DeclarationType
+DECL_CONSTRUCTOR	../include/Declaration.hxx	/^		enum DeclarationType {DECL_VALUE, DECL_ARGUMENT, DECL_ATTRIBUTE, DECL_CONSTRUCTOR, DECL_METHOD, DECL_INSTANCE, DECL_EXPLICIT, DECL_MAP, DECL_ASSOCIATION, DECL_INCLUSION, DECL_SUPER, DECL_LOCAL, DECL_ENUMERATION} which;$/;"	e	enum:Declaration::DeclarationType
+DECL_ENUMERATION	../include/Declaration.hxx	/^		enum DeclarationType {DECL_VALUE, DECL_ARGUMENT, DECL_ATTRIBUTE, DECL_CONSTRUCTOR, DECL_METHOD, DECL_INSTANCE, DECL_EXPLICIT, DECL_MAP, DECL_ASSOCIATION, DECL_INCLUSION, DECL_SUPER, DECL_LOCAL, DECL_ENUMERATION} which;$/;"	e	enum:Declaration::DeclarationType
+DECL_EXPLICIT	../include/Declaration.hxx	/^		enum DeclarationType {DECL_VALUE, DECL_ARGUMENT, DECL_ATTRIBUTE, DECL_CONSTRUCTOR, DECL_METHOD, DECL_INSTANCE, DECL_EXPLICIT, DECL_MAP, DECL_ASSOCIATION, DECL_INCLUSION, DECL_SUPER, DECL_LOCAL, DECL_ENUMERATION} which;$/;"	e	enum:Declaration::DeclarationType
+DECL_INCLUSION	../include/Declaration.hxx	/^		enum DeclarationType {DECL_VALUE, DECL_ARGUMENT, DECL_ATTRIBUTE, DECL_CONSTRUCTOR, DECL_METHOD, DECL_INSTANCE, DECL_EXPLICIT, DECL_MAP, DECL_ASSOCIATION, DECL_INCLUSION, DECL_SUPER, DECL_LOCAL, DECL_ENUMERATION} which;$/;"	e	enum:Declaration::DeclarationType
+DECL_INSTANCE	../include/Declaration.hxx	/^		enum DeclarationType {DECL_VALUE, DECL_ARGUMENT, DECL_ATTRIBUTE, DECL_CONSTRUCTOR, DECL_METHOD, DECL_INSTANCE, DECL_EXPLICIT, DECL_MAP, DECL_ASSOCIATION, DECL_INCLUSION, DECL_SUPER, DECL_LOCAL, DECL_ENUMERATION} which;$/;"	e	enum:Declaration::DeclarationType
+DECL_LOCAL	../include/Declaration.hxx	/^		enum DeclarationType {DECL_VALUE, DECL_ARGUMENT, DECL_ATTRIBUTE, DECL_CONSTRUCTOR, DECL_METHOD, DECL_INSTANCE, DECL_EXPLICIT, DECL_MAP, DECL_ASSOCIATION, DECL_INCLUSION, DECL_SUPER, DECL_LOCAL, DECL_ENUMERATION} which;$/;"	e	enum:Declaration::DeclarationType
+DECL_MAP	../include/Declaration.hxx	/^		enum DeclarationType {DECL_VALUE, DECL_ARGUMENT, DECL_ATTRIBUTE, DECL_CONSTRUCTOR, DECL_METHOD, DECL_INSTANCE, DECL_EXPLICIT, DECL_MAP, DECL_ASSOCIATION, DECL_INCLUSION, DECL_SUPER, DECL_LOCAL, DECL_ENUMERATION} which;$/;"	e	enum:Declaration::DeclarationType
+DECL_METHOD	../include/Declaration.hxx	/^		enum DeclarationType {DECL_VALUE, DECL_ARGUMENT, DECL_ATTRIBUTE, DECL_CONSTRUCTOR, DECL_METHOD, DECL_INSTANCE, DECL_EXPLICIT, DECL_MAP, DECL_ASSOCIATION, DECL_INCLUSION, DECL_SUPER, DECL_LOCAL, DECL_ENUMERATION} which;$/;"	e	enum:Declaration::DeclarationType
+DECL_SUPER	../include/Declaration.hxx	/^		enum DeclarationType {DECL_VALUE, DECL_ARGUMENT, DECL_ATTRIBUTE, DECL_CONSTRUCTOR, DECL_METHOD, DECL_INSTANCE, DECL_EXPLICIT, DECL_MAP, DECL_ASSOCIATION, DECL_INCLUSION, DECL_SUPER, DECL_LOCAL, DECL_ENUMERATION} which;$/;"	e	enum:Declaration::DeclarationType
+DECL_VALUE	../include/Declaration.hxx	/^		enum DeclarationType {DECL_VALUE, DECL_ARGUMENT, DECL_ATTRIBUTE, DECL_CONSTRUCTOR, DECL_METHOD, DECL_INSTANCE, DECL_EXPLICIT, DECL_MAP, DECL_ASSOCIATION, DECL_INCLUSION, DECL_SUPER, DECL_LOCAL, DECL_ENUMERATION} which;$/;"	e	enum:Declaration::DeclarationType
+Declaration	../include/Declaration.hxx	/^class Declaration: public NT$/;"	c
+Declaration	Declaration.cxx	/^Declaration::Declaration (DeclarationType _which, bool _isProperty, Modifier *_modifier, Type *_type, bool _isRef, Identifier *_identifier, ComponentType *_component, int _line)$/;"	f	class:Declaration
+DeclarationStatement	../include/Statement.hxx	/^class DeclarationStatement: public Statement, public Declaration$/;"	c
+DeclarationStatement	Statement.cxx	/^DeclarationStatement::DeclarationStatement (Modifier *_modifier, Type *_type, InitializedIdentifier *ii)$/;"	f	class:DeclarationStatement
+DeclarationType	../include/Declaration.hxx	/^		enum DeclarationType {DECL_VALUE, DECL_ARGUMENT, DECL_ATTRIBUTE, DECL_CONSTRUCTOR, DECL_METHOD, DECL_INSTANCE, DECL_EXPLICIT, DECL_MAP, DECL_ASSOCIATION, DECL_INCLUSION, DECL_SUPER, DECL_LOCAL, DECL_ENUMERATION} which;$/;"	g	class:Declaration
+Delegate	../include/Declaration.hxx	/^class Delegate: public NT$/;"	c
+Delegate	Declaration.cxx	/^Delegate::Delegate (Identifier *_set, Identifier *_left, Identifier *_instance, Identifier *_instanceSet, Identifier *_right)$/;"	f	class:Delegate
+Delegate	Declaration.cxx	/^Delegate::Delegate (Identifier *_set, Identifier *_left, Identifier *_right)$/;"	f	class:Delegate
+Designator	../include/Declaration.hxx	/^class Designator: public NT$/;"	c
+Designator	Declaration.cxx	/^Designator::Designator (ComponentType *_component, int _line)$/;"	f	class:Designator
+Disambiguation	../include/Declaration.hxx	/^class Disambiguation: public NT$/;"	c
+Disambiguation	Declaration.cxx	/^Disambiguation::Disambiguation (Statement *_statement, ComponentType *_component, int _line)$/;"	f	class:Disambiguation
+DoStatement	../include/Statement.hxx	/^class DoStatement: public Statement$/;"	c
+DoStatement	Statement.cxx	/^DoStatement::DoStatement (Statement *_statement, Expression *_expression)$/;"	f	class:DoStatement
+EmptyStatement	../include/Statement.hxx	/^class EmptyStatement: public Statement$/;"	c
+EmptyStatement	Statement.cxx	/^EmptyStatement::EmptyStatement (ComponentType *_component, int _line)$/;"	f	class:EmptyStatement
+EnumerationItem	../include/Type.hxx	/^class EnumerationItem: public Declaration$/;"	c
+EnumerationItem	Type.cxx	/^EnumerationItem::EnumerationItem (Identifier *_identifier, IntegerExpression *_literal)$/;"	f	class:EnumerationItem
+EnumerationType	../include/Type.hxx	/^class EnumerationType: public NamedType$/;"	c
+EnumerationType	Type.cxx	/^EnumerationType::EnumerationType (Identifier *_identifier, UniqueArray<EnumerationItem> *_list, ComponentType *_component, int _line)$/;"	f	class:EnumerationType
+ExecutionDeclaration	../include/Declaration.hxx	/^class ExecutionDeclaration: public PropertyDeclaration$/;"	c
+ExecutionDeclaration	Declaration.cxx	/^ExecutionDeclaration::ExecutionDeclaration (DeclarationType _which, Modifier *_modifier, Type *_retType, Identifier *_identifier, ArgumentDeclarationList *_argList)$/;"	f	class:ExecutionDeclaration
+ExecutionType	../include/Type.hxx	/^class ExecutionType: public Type$/;"	c
+ExecutionType	Type.cxx	/^ExecutionType::ExecutionType (Type *_retType, ArgumentDeclarationList *_argList)$/;"	f	class:ExecutionType
+ExplicitDeclaration	../include/Declaration.hxx	/^class ExplicitDeclaration: public Declaration$/;"	c
+ExplicitDeclaration	Declaration.cxx	/^ExplicitDeclaration::ExplicitDeclaration (ClassType *_container, Array<PropertyDeclaration> *_propertyList, ComponentType *_component, int _line)$/;"	f	class:ExplicitDeclaration
+Expression	../include/Expression.hxx	/^class Expression: public NT$/;"	c
+Expression	Expression.cxx	/^Expression::Expression (ComponentType *_component, int _line)$/;"	f	class:Expression
+ExpressionDesignator	../include/Declaration.hxx	/^class ExpressionDesignator: public Designator$/;"	c
+ExpressionDesignator	Declaration.cxx	/^ExpressionDesignator::ExpressionDesignator (Expression *_expression)$/;"	f	class:ExpressionDesignator
+ExpressionInitializer	../include/Declaration.hxx	/^class ExpressionInitializer: public Initializer$/;"	c
+ExpressionInitializer	Declaration.cxx	/^ExpressionInitializer::ExpressionInitializer (Expression *_expression)$/;"	f	class:ExpressionInitializer
+ExpressionList	../include/Expression.hxx	/^class ExpressionList: public NT$/;"	c
+ExpressionList	Expression.cxx	/^ExpressionList::ExpressionList (ComponentType *_component, int _line)$/;"	f	class:ExpressionList
+ExpressionResolve	../include/ResolveManager.hxx	/^class ExpressionResolve$/;"	c
+ExpressionStatement	../include/Statement.hxx	/^class ExpressionStatement: public Statement$/;"	c
+ExpressionStatement	Statement.cxx	/^ExpressionStatement::ExpressionStatement (Expression *_expression)$/;"	f	class:ExpressionStatement
+FS_DUPLICATE	../include/FieldList.hxx	/^		enum FieldStatus {FS_FIELD, FS_TYPE, FS_DUPLICATE} status;$/;"	e	enum:FieldListItem::FieldStatus
+FS_FIELD	../include/FieldList.hxx	/^		enum FieldStatus {FS_FIELD, FS_TYPE, FS_DUPLICATE} status;$/;"	e	enum:FieldListItem::FieldStatus
+FS_TYPE	../include/FieldList.hxx	/^		enum FieldStatus {FS_FIELD, FS_TYPE, FS_DUPLICATE} status;$/;"	e	enum:FieldListItem::FieldStatus
+FieldExpression	../include/Expression.hxx	/^class FieldExpression: public Expression$/;"	c
+FieldExpression	Expression.cxx	/^FieldExpression::FieldExpression (Expression *_object, Identifier *_identifier)$/;"	f	class:FieldExpression
+FieldList	../include/FieldList.hxx	/^class FieldList$/;"	c
+FieldListItem	../include/FieldList.hxx	/^class FieldListItem$/;"	c
+FieldListItem	FieldList.cxx	/^FieldListItem::FieldListItem (AttributeDeclaration *attribute)$/;"	f	class:FieldListItem
+FieldStatus	../include/FieldList.hxx	/^		enum FieldStatus {FS_FIELD, FS_TYPE, FS_DUPLICATE} status;$/;"	g	class:FieldListItem
+FloatExpression	../include/Expression.hxx	/^class FloatExpression: public LiteralExpression$/;"	c
+FloatExpression	Expression.cxx	/^FloatExpression::FloatExpression (const char *_value, ComponentType *_component, int _line)$/;"	f	class:FloatExpression
+FloatType	../include/Type.hxx	/^class FloatType: public NamedType$/;"	c
+FloatType	Type.cxx	/^FloatType::FloatType (const char *_name, ComponentType *_component, int _line)$/;"	f	class:FloatType
+ForStatement	../include/Statement.hxx	/^class ForStatement: public Statement$/;"	c
+ForStatement	Statement.cxx	/^ForStatement::ForStatement (Expression *_expression0, Expression *_expression1, Expression *_expression2, Statement *_statement)$/;"	f	class:ForStatement
+GotoStatement	../include/Statement.hxx	/^class GotoStatement: public Statement$/;"	c
+GotoStatement	Statement.cxx	/^GotoStatement::GotoStatement (Identifier *_label)$/;"	f	class:GotoStatement
+INIT	../include/NT.hxx	30;"	d
+INITHIS	../include/NT.hxx	31;"	d
+Identifier	../include/Identifier.hxx	/^class Identifier: public NT$/;"	c
+Identifier	Identifier.cxx	/^Identifier::Identifier (Identifier *identifier)$/;"	f	class:Identifier
+Identifier	Identifier.cxx	/^Identifier::Identifier (const char *_value, ComponentType *_component, int _line)$/;"	f	class:Identifier
+IdentifierDesignator	../include/Declaration.hxx	/^class IdentifierDesignator: public Designator$/;"	c
+IdentifierDesignator	Declaration.cxx	/^IdentifierDesignator::IdentifierDesignator (Identifier *_identifier)$/;"	f	class:IdentifierDesignator
+IdentifierExpression	../include/Expression.hxx	/^class IdentifierExpression: public FieldExpression$/;"	c
+IdentifierExpression	Expression.cxx	/^IdentifierExpression::IdentifierExpression (Identifier *_identifier)$/;"	f	class:IdentifierExpression
+IfStatement	../include/Statement.hxx	/^class IfStatement: public Statement$/;"	c
+IfStatement	Statement.cxx	/^IfStatement::IfStatement (Expression *_expression, Statement *_statement0, Statement *_statement1)$/;"	f	class:IfStatement
+InclusionBody	../include/Declaration.hxx	/^class InclusionBody: public NT$/;"	c
+InclusionBody	Declaration.cxx	/^InclusionBody::InclusionBody (Array<InclusionBodyItem> *_body, Disambiguation *_disambiguation, ComponentType *_component, int _line)$/;"	f	class:InclusionBody
+InclusionBodyItem	../include/Declaration.hxx	/^class InclusionBodyItem: public NT$/;"	c
+InclusionBodyItem	Declaration.cxx	/^InclusionBodyItem::InclusionBodyItem (ComponentType *_component, int _line)$/;"	f	class:InclusionBodyItem
+InclusionDeclaration	../include/Declaration.hxx	/^class InclusionDeclaration: public Declaration$/;"	c
+InclusionDeclaration	Declaration.cxx	/^InclusionDeclaration::InclusionDeclaration (ClassType *_left, UniqueArray<ClassType> *_inclusion, Array<InclusionBodyItem> *_body, Disambiguation *_disambiguation)$/;"	f	class:InclusionDeclaration
+InitializedIdentifier	../include/Declaration.hxx	/^class InitializedIdentifier$/;"	c
+InitializedIdentifier	Declaration.cxx	/^InitializedIdentifier::InitializedIdentifier (Identifier *_identifier, Initializer *_initializer)$/;"	f	class:InitializedIdentifier
+Initializer	../include/Declaration.hxx	/^class Initializer: public NT$/;"	c
+Initializer	Declaration.cxx	/^Initializer::Initializer (ComponentType *_component, int _line)$/;"	f	class:Initializer
+InstanceDeclaration	../include/Declaration.hxx	/^class InstanceDeclaration: public Declaration$/;"	c
+InstanceDeclaration	Declaration.cxx	/^InstanceDeclaration::InstanceDeclaration (Modifier *_modifier, QualifiedIdentifier *_qid, Array<MapDeclaration> *_mapList, Array<IntegerExpression> *_dimension, ComponentType *_component, int _line)$/;"	f	class:InstanceDeclaration
+IntegerExpression	../include/Expression.hxx	/^class IntegerExpression: public LiteralExpression$/;"	c
+IntegerExpression	Expression.cxx	/^IntegerExpression::IntegerExpression (const char *_value, ComponentType *_component, int _line)$/;"	f	class:IntegerExpression
+IntegerType	../include/Type.hxx	/^class IntegerType: public NamedType$/;"	c
+IntegerType	Type.cxx	/^IntegerType::IntegerType (const char *_name, ComponentType *_component, int _line)$/;"	f	class:IntegerType
+InterfaceType	../include/Type.hxx	/^class InterfaceType: public ClassType$/;"	c
+InterfaceType	Type.cxx	/^InterfaceType::InterfaceType (Identifier *_identifier, UniqueArray<Identifier> *_stateList)$/;"	f	class:InterfaceType
+InterfaceType	Type.cxx	/^InterfaceType::InterfaceType (Modifier *_modifier, Identifier *_identifier, UniqueArray<Identifier> *_stateList)$/;"	f	class:InterfaceType
+InternalType	../include/Type.hxx	/^class InternalType: public ClassType$/;"	c
+InternalType	Type.cxx	/^InternalType::InternalType (Identifier *_identifier)$/;"	f	class:InternalType
+InternalType	Type.cxx	/^InternalType::InternalType (Modifier *_modifier, Identifier *_identifier)$/;"	f	class:InternalType
+LabeledStatement	../include/Statement.hxx	/^class LabeledStatement: public Statement$/;"	c
+LabeledStatement	Statement.cxx	/^LabeledStatement::LabeledStatement (Identifier *_label, Statement *_statement)$/;"	f	class:LabeledStatement
+LiteralExpression	../include/Expression.hxx	/^class LiteralExpression: public Expression$/;"	c
+LiteralExpression	Expression.cxx	/^LiteralExpression::LiteralExpression (const char *_value, ComponentType *_component, int _line)$/;"	f	class:LiteralExpression
+MOD_CONST	../include/Declaration.hxx	9;"	d
+MOD_EXTERN	../include/Declaration.hxx	8;"	d
+MOD_LOCAL	../include/Declaration.hxx	7;"	d
+MOD_PROVIDES	../include/Declaration.hxx	5;"	d
+MOD_REQUIRES	../include/Declaration.hxx	6;"	d
+MOD_VIRTUAL	../include/Declaration.hxx	10;"	d
+MapDeclaration	../include/Declaration.hxx	/^class MapDeclaration: public ComponentDeclaration$/;"	c
+MapDeclaration	Declaration.cxx	/^MapDeclaration::MapDeclaration (ClassType *_setType, Array<ClassType> *_stateMap, ComponentType *_component, int _line)$/;"	f	class:MapDeclaration
+MapDelegate	../include/Declaration.hxx	/^class MapDelegate$/;"	c
+MapDelegate	Declaration.cxx	/^MapDelegate::MapDelegate (MethodDeclaration *_left, MethodDeclaration *_right, Array<ComponentDeclaration> *_rightPath)$/;"	f	class:MapDelegate
+Mapper	../include/Mapper.hxx	/^class Mapper$/;"	c
+Mapper	Mapper.cxx	/^Mapper::Mapper (ClassType *_target)$/;"	f	class:Mapper
+MethodDeclaration	../include/Declaration.hxx	/^class MethodDeclaration: public ExecutionDeclaration$/;"	c
+MethodDeclaration	Declaration.cxx	/^MethodDeclaration::MethodDeclaration (Modifier *_modifier, Type *_retType, Identifier *_identifier, ArgumentDeclarationList *_argList)$/;"	f	class:MethodDeclaration
+Modifier	../include/Declaration.hxx	/^class Modifier: public NT$/;"	c
+Modifier	Declaration.cxx	/^Modifier::Modifier (ComponentType *_component, int _line)$/;"	f	class:Modifier
+NT	../include/NT.hxx	/^class NT$/;"	c
+NT	NT.cxx	/^NT::NT (ComponentType *_component, int _line)$/;"	f	class:NT
+NT	NT.cxx	/^NT::NT (NT *nt)$/;"	f	class:NT
+NameSpace	../include/NameSpace.hxx	/^class NameSpace$/;"	c
+NamedType	../include/Type.hxx	/^class NamedType: public Type$/;"	c
+NamedType	Type.cxx	/^NamedType::NamedType (WhichType _which, Identifier *_identifier)$/;"	f	class:NamedType
+NewExpression	../include/Expression.hxx	/^class NewExpression: public ConstructorCallExpression$/;"	c
+NewExpression	Expression.cxx	/^NewExpression::NewExpression (Type *_type, ExpressionList *_argList, ComponentType *_component, int _line)$/;"	f	class:NewExpression
+NullExpression	../include/Expression.hxx	/^class NullExpression: public LiteralExpression$/;"	c
+NullExpression	Expression.cxx	/^NullExpression::NullExpression (ComponentType *_component, int _line)$/;"	f	class:NullExpression
+NullType	../include/Type.hxx	/^class NullType: public Type$/;"	c
+NullType	Type.cxx	/^NullType::NullType (ComponentType *_component, int _line)$/;"	f	class:NullType
+OP_ADD	../include/Expression.hxx	29;"	d
+OP_ADD_ASSIGN	../include/Expression.hxx	9;"	d
+OP_AND_ASSIGN	../include/Expression.hxx	13;"	d
+OP_ASSIGN	../include/Expression.hxx	5;"	d
+OP_BIT_AND	../include/Expression.hxx	20;"	d
+OP_BIT_OR	../include/Expression.hxx	18;"	d
+OP_DELETE	../include/Expression.hxx	43;"	d
+OP_DIV	../include/Expression.hxx	32;"	d
+OP_DIV_ASSIGN	../include/Expression.hxx	7;"	d
+OP_EQ	../include/Expression.hxx	21;"	d
+OP_GE	../include/Expression.hxx	26;"	d
+OP_GREATER	../include/Expression.hxx	24;"	d
+OP_LE	../include/Expression.hxx	25;"	d
+OP_LEFT_ASSIGN	../include/Expression.hxx	11;"	d
+OP_LESS	../include/Expression.hxx	23;"	d
+OP_LOG_AND	../include/Expression.hxx	17;"	d
+OP_LOG_OR	../include/Expression.hxx	16;"	d
+OP_MINUS	../include/Expression.hxx	37;"	d
+OP_MOD	../include/Expression.hxx	33;"	d
+OP_MOD_ASSIGN	../include/Expression.hxx	8;"	d
+OP_MUL	../include/Expression.hxx	31;"	d
+OP_MUL_ASSIGN	../include/Expression.hxx	6;"	d
+OP_NE	../include/Expression.hxx	22;"	d
+OP_NOT	../include/Expression.hxx	39;"	d
+OP_OR_ASSIGN	../include/Expression.hxx	15;"	d
+OP_PAR	../include/Expression.hxx	42;"	d
+OP_PLUS	../include/Expression.hxx	36;"	d
+OP_POST_DEC	../include/Expression.hxx	41;"	d
+OP_POST_INC	../include/Expression.hxx	40;"	d
+OP_PRE_DEC	../include/Expression.hxx	35;"	d
+OP_PRE_INC	../include/Expression.hxx	34;"	d
+OP_RIGHT_ASSIGN	../include/Expression.hxx	12;"	d
+OP_SHIFT_LEFT	../include/Expression.hxx	27;"	d
+OP_SHIFT_RIGHT	../include/Expression.hxx	28;"	d
+OP_SUB	../include/Expression.hxx	30;"	d
+OP_SUB_ASSIGN	../include/Expression.hxx	10;"	d
+OP_TILDA	../include/Expression.hxx	38;"	d
+OP_XOR	../include/Expression.hxx	19;"	d
+OP_XOR_ASSIGN	../include/Expression.hxx	14;"	d
+Polymorphic	../include/NameSpace.hxx	/^class Polymorphic$/;"	c
+Polymorphic	NameSpace.cxx	/^Polymorphic::Polymorphic ()$/;"	f	class:Polymorphic
+Polymorphic	NameSpace.cxx	/^Polymorphic::Polymorphic (ExecutionDeclaration *decl)$/;"	f	class:Polymorphic
+PolymorphicSymbol	../include/NameSpace.hxx	/^class PolymorphicSymbol: public Symbol$/;"	c
+PolymorphicSymbol	NameSpace.cxx	/^PolymorphicSymbol::PolymorphicSymbol (ExecutionDeclaration *decl)$/;"	f	class:PolymorphicSymbol
+PrimitiveCastExpression	../include/Expression.hxx	/^class PrimitiveCastExpression: public CastExpression$/;"	c
+PrimitiveCastExpression	Expression.cxx	/^PrimitiveCastExpression::PrimitiveCastExpression (Type *_type, Expression *_expression)$/;"	f	class:PrimitiveCastExpression
+Program	../include/Program.hxx	/^class Program$/;"	c
+Program	Program.cxx	/^Program::Program ()$/;"	f	class:Program
+PropertyConstructor	../include/ConstructorManager.hxx	/^class PropertyConstructor$/;"	c
+PropertyConstructor	ConstructorManager.cxx	/^PropertyConstructor::PropertyConstructor ()$/;"	f	class:PropertyConstructor
+PropertyDeclaration	../include/Declaration.hxx	/^class PropertyDeclaration: public Declaration$/;"	c
+PropertyDeclaration	Declaration.cxx	/^PropertyDeclaration::PropertyDeclaration (DeclarationType _which, ClassType *_container, Modifier *_modifier, Type *_type, bool _isRef, Identifier *_identifier, ComponentType *_component, int _line)$/;"	f	class:PropertyDeclaration
+QualifiedIdentifier	../include/Identifier.hxx	/^class QualifiedIdentifier: public NT$/;"	c
+QualifiedIdentifier	Identifier.cxx	/^QualifiedIdentifier::QualifiedIdentifier (Identifier *identifier)$/;"	f	class:QualifiedIdentifier
+ReturnStatement	../include/Statement.hxx	/^class ReturnStatement: public Statement$/;"	c
+ReturnStatement	Statement.cxx	/^ReturnStatement::ReturnStatement (Expression *_expression, ComponentType *_component, int _line)$/;"	f	class:ReturnStatement
+SYM_POLYMORPHIC	../include/NameSpace.hxx	/^		enum SymbolType {SYM_SIMPLE, SYM_POLYMORPHIC, SYM_TYPE} which;$/;"	e	enum:Symbol::SymbolType
+SYM_SIMPLE	../include/NameSpace.hxx	/^		enum SymbolType {SYM_SIMPLE, SYM_POLYMORPHIC, SYM_TYPE} which;$/;"	e	enum:Symbol::SymbolType
+SYM_TYPE	../include/NameSpace.hxx	/^		enum SymbolType {SYM_SIMPLE, SYM_POLYMORPHIC, SYM_TYPE} which;$/;"	e	enum:Symbol::SymbolType
+SetCastExpression	../include/Expression.hxx	/^class SetCastExpression: public CastExpression$/;"	c
+SetCastExpression	Expression.cxx	/^SetCastExpression::SetCastExpression (Type *_type, Expression *_expression)$/;"	f	class:SetCastExpression
+SetDelegate	../include/Type.hxx	/^class SetDelegate$/;"	c
+SetDelegate	Type.cxx	/^SetDelegate::SetDelegate (InstanceDeclaration *_instance, Identifier *_left, Identifier *_right)$/;"	f	class:SetDelegate
+SimpleSymbol	../include/NameSpace.hxx	/^class SimpleSymbol: public Symbol$/;"	c
+SimpleSymbol	NameSpace.cxx	/^SimpleSymbol::SimpleSymbol (Declaration *_declaration)$/;"	f	class:SimpleSymbol
+SingleInitializedIdentifier	../include/Declaration.hxx	/^class SingleInitializedIdentifier: public InitializedIdentifier$/;"	c
+SingleInitializedIdentifier	Declaration.cxx	/^SingleInitializedIdentifier::SingleInitializedIdentifier (ClassType *_container, Identifier *_identifier, Initializer *_initializer)$/;"	f	class:SingleInitializedIdentifier
+StateAttributeDeclaration	../include/Declaration.hxx	/^class StateAttributeDeclaration: public InclusionBodyItem$/;"	c
+StateAttributeDeclaration	Declaration.cxx	/^StateAttributeDeclaration::StateAttributeDeclaration (Type *_type, Identifier *_identifier, UniqueArray<StateInitializer> *_initializer)$/;"	f	class:StateAttributeDeclaration
+StateInitializer	../include/Declaration.hxx	/^class StateInitializer: public NT$/;"	c
+StateInitializer	Declaration.cxx	/^StateInitializer::StateInitializer (ClassType *_set, Expression *_expression)$/;"	f	class:StateInitializer
+Statement	../include/Statement.hxx	/^class Statement: public SwitchItem$/;"	c
+Statement	Statement.cxx	/^Statement::Statement (ComponentType *_component, int _line)$/;"	f	class:Statement
+StringExpression	../include/Expression.hxx	/^class StringExpression: public LiteralExpression$/;"	c
+StringExpression	Expression.cxx	/^StringExpression::StringExpression (const char *_value, ComponentType *_component, int _line)$/;"	f	class:StringExpression
+SuperDeclaration	../include/Declaration.hxx	/^class SuperDeclaration: public ComponentDeclaration$/;"	c
+SuperDeclaration	Declaration.cxx	/^SuperDeclaration::SuperDeclaration (ClassType *_container, InclusionDeclaration *_inclusion)$/;"	f	class:SuperDeclaration
+SwitchDefault	../include/Statement.hxx	/^class SwitchDefault: public SwitchItem$/;"	c
+SwitchDefault	Statement.cxx	/^SwitchDefault::SwitchDefault (ComponentType *_component, int _line)$/;"	f	class:SwitchDefault
+SwitchIdentifierLabel	../include/Statement.hxx	/^class SwitchIdentifierLabel: public SwitchItem$/;"	c
+SwitchIdentifierLabel	Statement.cxx	/^SwitchIdentifierLabel::SwitchIdentifierLabel (Identifier *label)$/;"	f	class:SwitchIdentifierLabel
+SwitchIntegerLabel	../include/Statement.hxx	/^class SwitchIntegerLabel: public SwitchItem$/;"	c
+SwitchIntegerLabel	Statement.cxx	/^SwitchIntegerLabel::SwitchIntegerLabel (IntegerExpression *_label)$/;"	f	class:SwitchIntegerLabel
+SwitchItem	../include/Statement.hxx	/^class SwitchItem: public NT$/;"	c
+SwitchItem	Statement.cxx	/^SwitchItem::SwitchItem (ComponentType *_component, int _line)$/;"	f	class:SwitchItem
+SwitchItemList	../include/Statement.hxx	/^class SwitchItemList: public NT$/;"	c
+SwitchItemList	Statement.cxx	/^SwitchItemList::SwitchItemList (ComponentType *_component, int _line)$/;"	f	class:SwitchItemList
+SwitchStatement	../include/Statement.hxx	/^class SwitchStatement: public Statement$/;"	c
+SwitchStatement	Statement.cxx	/^SwitchStatement::SwitchStatement (Expression *_expression, SwitchItemList *_list)$/;"	f	class:SwitchStatement
+Symbol	../include/NameSpace.hxx	/^class Symbol$/;"	c
+Symbol	NameSpace.cxx	/^Symbol::Symbol (SymbolType _which, Identifier *_identifier)$/;"	f	class:Symbol
+SymbolType	../include/NameSpace.hxx	/^		enum SymbolType {SYM_SIMPLE, SYM_POLYMORPHIC, SYM_TYPE} which;$/;"	g	class:Symbol
+THIS_PTR	../include/Expression.hxx	45;"	d
+TYPE_ARRAY	../include/Type.hxx	/^		enum WhichType {TYPE_ARRAY, TYPE_COMPONENT, TYPE_VOID, TYPE_INTEGER, TYPE_FLOAT, TYPE_CLASS, TYPE_TYPEDEF, TYPE_ENUMERATION, TYPE_TRANSITION, TYPE_EXECUTION, TYPE_NULL} which;$/;"	e	enum:Type::WhichType
+TYPE_CLASS	../include/Type.hxx	/^		enum WhichType {TYPE_ARRAY, TYPE_COMPONENT, TYPE_VOID, TYPE_INTEGER, TYPE_FLOAT, TYPE_CLASS, TYPE_TYPEDEF, TYPE_ENUMERATION, TYPE_TRANSITION, TYPE_EXECUTION, TYPE_NULL} which;$/;"	e	enum:Type::WhichType
+TYPE_COMPONENT	../include/Type.hxx	/^		enum WhichType {TYPE_ARRAY, TYPE_COMPONENT, TYPE_VOID, TYPE_INTEGER, TYPE_FLOAT, TYPE_CLASS, TYPE_TYPEDEF, TYPE_ENUMERATION, TYPE_TRANSITION, TYPE_EXECUTION, TYPE_NULL} which;$/;"	e	enum:Type::WhichType
+TYPE_ENUMERATION	../include/Type.hxx	/^		enum WhichType {TYPE_ARRAY, TYPE_COMPONENT, TYPE_VOID, TYPE_INTEGER, TYPE_FLOAT, TYPE_CLASS, TYPE_TYPEDEF, TYPE_ENUMERATION, TYPE_TRANSITION, TYPE_EXECUTION, TYPE_NULL} which;$/;"	e	enum:Type::WhichType
+TYPE_EXECUTION	../include/Type.hxx	/^		enum WhichType {TYPE_ARRAY, TYPE_COMPONENT, TYPE_VOID, TYPE_INTEGER, TYPE_FLOAT, TYPE_CLASS, TYPE_TYPEDEF, TYPE_ENUMERATION, TYPE_TRANSITION, TYPE_EXECUTION, TYPE_NULL} which;$/;"	e	enum:Type::WhichType
+TYPE_FLOAT	../include/Type.hxx	/^		enum WhichType {TYPE_ARRAY, TYPE_COMPONENT, TYPE_VOID, TYPE_INTEGER, TYPE_FLOAT, TYPE_CLASS, TYPE_TYPEDEF, TYPE_ENUMERATION, TYPE_TRANSITION, TYPE_EXECUTION, TYPE_NULL} which;$/;"	e	enum:Type::WhichType
+TYPE_INTEGER	../include/Type.hxx	/^		enum WhichType {TYPE_ARRAY, TYPE_COMPONENT, TYPE_VOID, TYPE_INTEGER, TYPE_FLOAT, TYPE_CLASS, TYPE_TYPEDEF, TYPE_ENUMERATION, TYPE_TRANSITION, TYPE_EXECUTION, TYPE_NULL} which;$/;"	e	enum:Type::WhichType
+TYPE_NULL	../include/Type.hxx	/^		enum WhichType {TYPE_ARRAY, TYPE_COMPONENT, TYPE_VOID, TYPE_INTEGER, TYPE_FLOAT, TYPE_CLASS, TYPE_TYPEDEF, TYPE_ENUMERATION, TYPE_TRANSITION, TYPE_EXECUTION, TYPE_NULL} which;$/;"	e	enum:Type::WhichType
+TYPE_TRANSITION	../include/Type.hxx	/^		enum WhichType {TYPE_ARRAY, TYPE_COMPONENT, TYPE_VOID, TYPE_INTEGER, TYPE_FLOAT, TYPE_CLASS, TYPE_TYPEDEF, TYPE_ENUMERATION, TYPE_TRANSITION, TYPE_EXECUTION, TYPE_NULL} which;$/;"	e	enum:Type::WhichType
+TYPE_TYPEDEF	../include/Type.hxx	/^		enum WhichType {TYPE_ARRAY, TYPE_COMPONENT, TYPE_VOID, TYPE_INTEGER, TYPE_FLOAT, TYPE_CLASS, TYPE_TYPEDEF, TYPE_ENUMERATION, TYPE_TRANSITION, TYPE_EXECUTION, TYPE_NULL} which;$/;"	e	enum:Type::WhichType
+TYPE_VOID	../include/Type.hxx	/^		enum WhichType {TYPE_ARRAY, TYPE_COMPONENT, TYPE_VOID, TYPE_INTEGER, TYPE_FLOAT, TYPE_CLASS, TYPE_TYPEDEF, TYPE_ENUMERATION, TYPE_TRANSITION, TYPE_EXECUTION, TYPE_NULL} which;$/;"	e	enum:Type::WhichType
+ThisExpression	../include/Expression.hxx	/^class ThisExpression: public LiteralExpression$/;"	c
+ThisExpression	Expression.cxx	/^ThisExpression::ThisExpression (ComponentType *_component, int _line)$/;"	f	class:ThisExpression
+TransitionDeclaration	../include/Declaration.hxx	/^class TransitionDeclaration: public InclusionBodyItem$/;"	c
+TransitionDeclaration	Declaration.cxx	/^TransitionDeclaration::TransitionDeclaration (TransitionState *_state)$/;"	f	class:TransitionDeclaration
+TransitionState	../include/Declaration.hxx	/^class TransitionState: public NT$/;"	c
+TransitionState	Declaration.cxx	/^TransitionState::TransitionState (ClassType *_set, ComponentType *_component, int _line)$/;"	f	class:TransitionState
+TransitionType	../include/Type.hxx	/^class TransitionType: public Type$/;"	c
+TransitionType	Type.cxx	/^TransitionType::TransitionType (ClassType *_from, ClassType *_to)$/;"	f	class:TransitionType
+Type	../include/Type.hxx	/^class Type: public NT$/;"	c
+Type	Type.cxx	/^Type::Type (WhichType _which, ComponentType *_component, int _line)$/;"	f	class:Type
+TypeSymbol	../include/NameSpace.hxx	/^class TypeSymbol: public Symbol$/;"	c
+TypeSymbol	NameSpace.cxx	/^TypeSymbol::TypeSymbol (NamedType *_type)$/;"	f	class:TypeSymbol
+TypedefDeclaration	../include/Type.hxx	/^class TypedefDeclaration: public NamedType$/;"	c
+TypedefDeclaration	Type.cxx	/^TypedefDeclaration::TypedefDeclaration (Identifier *_identifier, Type *_type)$/;"	f	class:TypedefDeclaration
+UNIMPLEMENTED	../include/NT.hxx	32;"	d
+UnaryExpression	../include/Expression.hxx	/^class UnaryExpression: public Expression$/;"	c
+UnaryExpression	Expression.cxx	/^UnaryExpression::UnaryExpression (int _op, Expression *_expression)$/;"	f	class:UnaryExpression
+UnificationList	../include/Type.hxx	/^class UnificationList: public NT$/;"	c
+UnificationList	Type.cxx	/^UnificationList::UnificationList (UniqueArray<ClassType> *_list, ComponentType *_component, int _line)$/;"	f	class:UnificationList
+UniqueArray	../include/Array.hxx	/^		UniqueArray ()$/;"	f	class:UniqueArray
+UniqueArray	../include/Array.hxx	/^		UniqueArray (bool (*matchim) (T *t1, T *t2))$/;"	f	class:UniqueArray
+UniqueArray	../include/Array.hxx	/^class UniqueArray$/;"	c
+VTDeclaration	../include/Type.hxx	/^class VTDeclaration: public VTValue$/;"	c
+VTDeclaration	Type.cxx	/^VTDeclaration::VTDeclaration (const char *_entry, Declaration *_value)$/;"	f	class:VTDeclaration
+VTValue	../include/Type.hxx	/^class VTValue$/;"	c
+VTValue	Type.cxx	/^VTValue::VTValue (const char *_entry)$/;"	f	class:VTValue
+VTable	../include/Type.hxx	/^class VTable: public VTValue$/;"	c
+VTable	Type.cxx	/^VTable::VTable (const char *_entry)$/;"	f	class:VTable
+VTableType	../include/Type.hxx	/^class VTableType: public NT$/;"	c
+VTableType	Type.cxx	/^VTableType::VTableType (ClassType *_set, ComponentType *_component, int _line)$/;"	f	class:VTableType
+VoidType	../include/Type.hxx	/^class VoidType: public NamedType$/;"	c
+VoidType	Type.cxx	/^VoidType::VoidType (ComponentType *_component, int _line)$/;"	f	class:VoidType
+WhichType	../include/Type.hxx	/^		enum WhichType {TYPE_ARRAY, TYPE_COMPONENT, TYPE_VOID, TYPE_INTEGER, TYPE_FLOAT, TYPE_CLASS, TYPE_TYPEDEF, TYPE_ENUMERATION, TYPE_TRANSITION, TYPE_EXECUTION, TYPE_NULL} which;$/;"	g	class:Type
+WhileStatement	../include/Statement.hxx	/^class WhileStatement: public Statement$/;"	c
+WhileStatement	Statement.cxx	/^WhileStatement::WhileStatement (Expression *_expression, Statement *_statement)$/;"	f	class:WhileStatement
+__ARRAY__	../include/Array.hxx	3;"	d
+__CAST__	../include/Cast.hxx	3;"	d
+__CONSTRUCTOR_MANAGER__	../include/ConstructorManager.hxx	3;"	d
+__DECLARATION__	../include/Declaration.hxx	3;"	d
+__EXPRESSION__	../include/Expression.hxx	3;"	d
+__FIELD_LIST__	../include/FieldList.hxx	12;"	d
+__IDENTIFIER__	../include/Identifier.hxx	3;"	d
+__MAPPER__	../include/Mapper.hxx	3;"	d
+__MODULE__	../include/Component.hxx	3;"	d
+__NAMESPACE__	../include/NameSpace.hxx	3;"	d
+__NT__	../include/NT.hxx	3;"	d
+__PARHAM__	../include/parham.hxx	3;"	d
+__PROGRAM__	../include/Program.hxx	3;"	d
+__RESOLVE_MANAGER__	../include/ResolveManager.hxx	3;"	d
+__STATEMENT__	../include/Statement.hxx	3;"	d
+__TYPE__	../include/Type.hxx	3;"	d
+accept	Component.cxx	/^bool ComponentType::accept (InstanceDeclaration *mi)$/;"	f	class:ComponentType
+accept	Declaration.cxx	/^bool ArgumentDeclarationList::accept (ExpressionList *argList)$/;"	f	class:ArgumentDeclarationList
+accept	Type.cxx	/^bool ArrayType::accept (Type *type, Cast *castPath)$/;"	f	class:ArrayType
+accept	Type.cxx	/^bool ClassType::accept (Type *type, Cast *castPath)$/;"	f	class:ClassType
+accept	Type.cxx	/^bool EnumerationType::accept (Type *type, Cast *castPath)$/;"	f	class:EnumerationType
+accept	Type.cxx	/^bool ExecutionType::accept (ExpressionList *argList2)$/;"	f	class:ExecutionType
+accept	Type.cxx	/^bool ExecutionType::accept (Type *type, Cast *castPath)$/;"	f	class:ExecutionType
+accept	Type.cxx	/^bool FloatType::accept (Type *type, Cast *castPath)$/;"	f	class:FloatType
+accept	Type.cxx	/^bool IntegerType::accept (Type *type, Cast *castPath)$/;"	f	class:IntegerType
+accept	Type.cxx	/^bool TransitionType::accept (Type *type, Cast *castPath)$/;"	f	class:TransitionType
+accept	Type.cxx	/^bool Type::accept (Expression *exp)$/;"	f	class:Type
+accept	Type.cxx	/^bool Type::accept (Type *type, Cast *castPath)$/;"	f	class:Type
+accept	Type.cxx	/^bool TypedefDeclaration::accept (Type *type, Cast *castPath)$/;"	f	class:TypedefDeclaration
+accept2	Type.cxx	/^bool ClassType::accept2 (ClassType *type, Array<PropertyDeclaration> *path)$/;"	f	class:ClassType
+add	../include/Array.hxx	/^		bool add (T *item)$/;"	f	class:UniqueArray
+add	../include/Array.hxx	/^		void add (T *item)$/;"	f	class:Array
+add	ConstructorManager.cxx	/^int ClassConstructor::add (ConstructorDeclaration *constructor)$/;"	f	class:ClassConstructor
+add	Declaration.cxx	/^void ArgumentDeclarationList::add (ArgumentDeclaration *arg)$/;"	f	class:ArgumentDeclarationList
+add	Declaration.cxx	/^void Modifier::add (Modifier *modifier)$/;"	f	class:Modifier
+add	Declaration.cxx	/^void Modifier::add (unsigned int mod)$/;"	f	class:Modifier
+add	Declaration.cxx	/^void TransitionDeclaration::add (TransitionState *_state)$/;"	f	class:TransitionDeclaration
+add	Expression.cxx	/^void ExpressionList::add (Expression *exp)$/;"	f	class:ExpressionList
+add	Identifier.cxx	/^void QualifiedIdentifier::add (Identifier *identifier)$/;"	f	class:QualifiedIdentifier
+add	NameSpace.cxx	/^int Polymorphic::add (ExecutionDeclaration *decl)$/;"	f	class:Polymorphic
+add	NameSpace.cxx	/^int PolymorphicSymbol::add (ExecutionDeclaration *decl)$/;"	f	class:PolymorphicSymbol
+add	Statement.cxx	/^void SwitchItemList::add (SwitchItem *item)$/;"	f	class:SwitchItemList
+add	Type.cxx	/^void VTableType::add (MethodDeclaration *method)$/;"	f	class:VTableType
+addAttribute	Component.cxx	/^bool ComponentType::addAttribute (Declaration *attrib)$/;"	f	class:ComponentType
+addAttribute	ResolveManager.cxx	/^bool ComponentResolve::addAttribute (Declaration *attrib)$/;"	f	class:ComponentResolve
+addAttribute	Type.cxx	/^void ClassType::addAttribute (PropertyDeclaration *prop)$/;"	f	class:ClassType
+addConstructor	Type.cxx	/^int ClassType::addConstructor (ConstructorDeclaration *constructor)$/;"	f	class:ClassType
+addConstructorCall	Declaration.cxx	/^void ConstructorDeclaration::addConstructorCall (ConstructorCall *cc)$/;"	f	class:ConstructorDeclaration
+addDelegate	Declaration.cxx	/^void MapDeclaration::addDelegate (Delegate *delegate)$/;"	f	class:MapDeclaration
+addExtension	NameSpace.cxx	/^void ClassSpace::addExtension (MapDeclaration *decl)$/;"	f	class:ClassSpace
+addExtension	NameSpace.cxx	/^void ComponentSpace::addExtension (InstanceDeclaration *decl)$/;"	f	class:ComponentSpace
+addFront	../include/Array.hxx	/^		void addFront (T *item)$/;"	f	class:Array
+addFront	Declaration.cxx	/^void ArgumentDeclarationList::addFront (ArgumentDeclaration *_self)$/;"	f	class:ArgumentDeclarationList
+addFront	Expression.cxx	/^void ExpressionList::addFront (Expression *exp)$/;"	f	class:ExpressionList
+addFront	Type.cxx	/^void ExecutionType::addFront (ArgumentDeclaration *arg)$/;"	f	class:ExecutionType
+addImport	Component.cxx	/^void ComponentType::addImport (QualifiedIdentifier *import)$/;"	f	class:ComponentType
+addInstance	Component.cxx	/^void ComponentType::addInstance (InstanceDeclaration *instance)$/;"	f	class:ComponentType
+addInterface	Component.cxx	/^void ComponentType::addInterface (InterfaceType *intf)$/;"	f	class:ComponentType
+addInternal	Component.cxx	/^void ComponentType::addInternal (InternalType *inter)$/;"	f	class:ComponentType
+addItem	Component.cxx	/^void ComponentType::addItem (Declaration *mi)$/;"	f	class:ComponentType
+addMap	Type.cxx	/^void ClassType::addMap (MapDeclaration *mapDecl)$/;"	f	class:ClassType
+addMethod	Type.cxx	/^int ClassType::addMethod (MethodDeclaration *method)$/;"	f	class:ClassType
+addMethod	Type.cxx	/^int ContainerType::addMethod (MethodDeclaration *method)$/;"	f	class:ContainerType
+addNoCheck	../include/Array.hxx	/^		void addNoCheck (T *item)$/;"	f	class:UniqueArray
+addPolymorphic	NameSpace.cxx	/^int ContainerSpace::addPolymorphic (MethodDeclaration *decl)$/;"	f	class:ContainerSpace
+addSimple	NameSpace.cxx	/^SimpleSymbol *NameSpace::addSimple (Declaration *decl)$/;"	f	class:NameSpace
+addSub	Type.cxx	/^void ClassType::addSub (InclusionDeclaration *incDecl)$/;"	f	class:ClassType
+addSuper	NameSpace.cxx	/^void ClassSpace::addSuper (SuperDeclaration *decl)$/;"	f	class:ClassSpace
+addSuper	Type.cxx	/^void ClassType::addSuper (InclusionDeclaration *incDecl)$/;"	f	class:ClassType
+addToContainer	Declaration.cxx	/^int ConstructorDeclaration::addToContainer ()$/;"	f	class:ConstructorDeclaration
+addToContainer	Declaration.cxx	/^int MethodDeclaration::addToContainer ()$/;"	f	class:MethodDeclaration
+addType	Component.cxx	/^void ComponentType::addType (NamedType *type)$/;"	f	class:ComponentType
+addType	NameSpace.cxx	/^TypeSymbol *ComponentSpace::addType (NamedType *type)$/;"	f	class:ComponentSpace
+addUnification	Type.cxx	/^void ClassType::addUnification (UnificationList *_unificationList)$/;"	f	class:ClassType
+addVirtual	Component.cxx	/^void ComponentType::addVirtual (MethodDeclaration *method)$/;"	f	class:ComponentType
+addVirtual	Type.cxx	/^void ClassType::addVirtual (MethodDeclaration *method)$/;"	f	class:ClassType
+analysis	Component.cxx	/^void ComponentType::analysis ()$/;"	f	class:ComponentType
+analysis	Declaration.cxx	/^void ArgumentDeclaration::analysis (BlockSpace *ns)$/;"	f	class:ArgumentDeclaration
+analysis	Declaration.cxx	/^void ArgumentDeclarationList::analysis (BlockSpace *ns)$/;"	f	class:ArgumentDeclarationList
+analysis	Declaration.cxx	/^void AttributeDeclaration::analysis ()$/;"	f	class:AttributeDeclaration
+analysis	Declaration.cxx	/^void ConstructorDeclaration::analysis ()$/;"	f	class:ConstructorDeclaration
+analysis	Declaration.cxx	/^void Declaration::analysis ()$/;"	f	class:Declaration
+analysis	Declaration.cxx	/^void Initializer::analysis ()$/;"	f	class:Initializer
+analysis	Declaration.cxx	/^void MethodDeclaration::analysis ()$/;"	f	class:MethodDeclaration
+analysis	Expression.cxx	/^Declaration *ConstructorCall::analysis (ClassType *set, BlockSpace *ns)$/;"	f	class:ConstructorCall
+analysis	Expression.cxx	/^Type *ConstructorCallExpression::analysis (BlockSpace *ns, PropertyDeclaration *pd)$/;"	f	class:ConstructorCallExpression
+analysis	Expression.cxx	/^Type *Expression::analysis (ClassType *set, BlockSpace *ns, ExpressionList *argList)$/;"	f	class:Expression
+analysis	Expression.cxx	/^bool ExpressionList::analysis (ClassType *set, BlockSpace *ns)$/;"	f	class:ExpressionList
+analysis	Statement.cxx	/^void BlockStatement::analysis (ClassType *set, BlockSpace *pns, Type *retType)$/;"	f	class:BlockStatement
+analysis	Statement.cxx	/^void DeclarationStatement::analysis (ClassType *set, BlockSpace *ns, Type *retType)$/;"	f	class:DeclarationStatement
+analysis	Statement.cxx	/^void DoStatement::analysis (ClassType *set, BlockSpace *ns, Type *retType)$/;"	f	class:DoStatement
+analysis	Statement.cxx	/^void ExpressionStatement::analysis (ClassType *set, BlockSpace *ns, Type *retType)$/;"	f	class:ExpressionStatement
+analysis	Statement.cxx	/^void ForStatement::analysis (ClassType *set, BlockSpace *ns, Type *retType)$/;"	f	class:ForStatement
+analysis	Statement.cxx	/^void IfStatement::analysis (ClassType *set, BlockSpace *ns, Type *retType)$/;"	f	class:IfStatement
+analysis	Statement.cxx	/^void LabeledStatement::analysis (ClassType *set, BlockSpace *ns, Type *retType)$/;"	f	class:LabeledStatement
+analysis	Statement.cxx	/^void ReturnStatement::analysis (ClassType *set, BlockSpace *ns, Type *retType)$/;"	f	class:ReturnStatement
+analysis	Statement.cxx	/^void SwitchIdentifierLabel::analysis (ClassType *set, BlockSpace *ns, Type *retType)$/;"	f	class:SwitchIdentifierLabel
+analysis	Statement.cxx	/^void SwitchIntegerLabel::analysis (ClassType *set, BlockSpace *ns, Type *retType)$/;"	f	class:SwitchIntegerLabel
+analysis	Statement.cxx	/^void SwitchItem::analysis (ClassType *set, BlockSpace *ns, Type *retType)$/;"	f	class:SwitchItem
+analysis	Statement.cxx	/^void SwitchItemList::analysis (ClassType *set, BlockSpace *ns, Type *retType)$/;"	f	class:SwitchItemList
+analysis	Statement.cxx	/^void SwitchStatement::analysis (ClassType *set, BlockSpace *ns, Type *retType)$/;"	f	class:SwitchStatement
+analysis	Statement.cxx	/^void WhileStatement::analysis (ClassType *set, BlockSpace *ns, Type *retType)$/;"	f	class:WhileStatement
+analysis	Type.cxx	/^void ClassType::analysis ()$/;"	f	class:ClassType
+analysis	Type.cxx	/^void InternalType::analysis ()$/;"	f	class:InternalType
+analysis	Type.cxx	/^void Type::analysis ()$/;"	f	class:Type
+analysis2	Expression.cxx	/^Type *ArrayExpression::analysis2 (ClassType *set, BlockSpace *ns, ExpressionList *argList)$/;"	f	class:ArrayExpression
+analysis2	Expression.cxx	/^Type *AssignExpression::analysis2 (ClassType *set, BlockSpace *ns, ExpressionList *argList)$/;"	f	class:AssignExpression
+analysis2	Expression.cxx	/^Type *BinaryExpression::analysis2 (ClassType *set, BlockSpace *ns, ExpressionList *argList)$/;"	f	class:BinaryExpression
+analysis2	Expression.cxx	/^Type *CallExpression::analysis2 (ClassType *set, BlockSpace *ns, ExpressionList *argList2)$/;"	f	class:CallExpression
+analysis2	Expression.cxx	/^Type *ConditionalExpression::analysis2 (ClassType *set, BlockSpace *ns, ExpressionList *argList)$/;"	f	class:ConditionalExpression
+analysis2	Expression.cxx	/^Type *ConstructorCall::analysis2 (ClassType *set, BlockSpace *ns, ExpressionList *argList)$/;"	f	class:ConstructorCall
+analysis2	Expression.cxx	/^Type *FieldExpression::analysis2 (ClassType *set, BlockSpace *ns, ExpressionList *argList)$/;"	f	class:FieldExpression
+analysis2	Expression.cxx	/^Type *FloatExpression::analysis2 (ClassType *set, BlockSpace *ns, ExpressionList *argList)$/;"	f	class:FloatExpression
+analysis2	Expression.cxx	/^Type *IdentifierExpression::analysis2 (ClassType *set, BlockSpace *ns, ExpressionList *argList)$/;"	f	class:IdentifierExpression
+analysis2	Expression.cxx	/^Type *IntegerExpression::analysis2 (ClassType *set, BlockSpace *ns, ExpressionList *argList)$/;"	f	class:IntegerExpression
+analysis2	Expression.cxx	/^Type *NewExpression::analysis2 (ClassType *container, BlockSpace *ns, ExpressionList *argList2)$/;"	f	class:NewExpression
+analysis2	Expression.cxx	/^Type *NullExpression::analysis2 (ClassType *set, BlockSpace *ns, ExpressionList *argList)$/;"	f	class:NullExpression
+analysis2	Expression.cxx	/^Type *PrimitiveCastExpression::analysis2 (ClassType *set, BlockSpace *ns, ExpressionList *argList)$/;"	f	class:PrimitiveCastExpression
+analysis2	Expression.cxx	/^Type *SetCastExpression::analysis2 (ClassType *set, BlockSpace *ns, ExpressionList *argList)$/;"	f	class:SetCastExpression
+analysis2	Expression.cxx	/^Type *StringExpression::analysis2 (ClassType *set, BlockSpace *ns, ExpressionList *argList)$/;"	f	class:StringExpression
+analysis2	Expression.cxx	/^Type *ThisExpression::analysis2 (ClassType *set, BlockSpace *ns, ExpressionList *argList)$/;"	f	class:ThisExpression
+analysis2	Expression.cxx	/^Type *UnaryExpression::analysis2 (ClassType *set, BlockSpace *ns, ExpressionList *argList)$/;"	f	class:UnaryExpression
+append	../include/Array.hxx	/^		void append (Array<T> *a)$/;"	f	class:Array
+applyDelegate	Declaration.cxx	/^void InstanceDeclaration::applyDelegate (Delegate *delegate)$/;"	f	class:InstanceDeclaration
+argList	../include/Declaration.hxx	/^		ArgumentDeclarationList *argList;$/;"	m	class:ExecutionDeclaration
+argList	../include/Expression.hxx	/^		ExpressionList *argList;$/;"	m	class:CallExpression
+argList	../include/Expression.hxx	/^		ExpressionList *argList;$/;"	m	class:ConstructorCallExpression
+argList	../include/Type.hxx	/^		ArgumentDeclarationList *argList;$/;"	m	class:ExecutionType
+array	../include/Array.hxx	/^		Array<T> array;$/;"	m	class:UniqueArray
+array	../include/Array.hxx	/^		T **array;$/;"	m	class:Array
+assert	../include/Array.hxx	5;"	d
+attrSatisfied	Type.cxx	/^bool ArrayType::attrSatisfied (Array<ClassType> *list)$/;"	f	class:ArrayType
+attrSatisfied	Type.cxx	/^bool InternalType::attrSatisfied (Array<ClassType> *list)$/;"	f	class:InternalType
+attrSatisfied	Type.cxx	/^bool Type::attrSatisfied (Array<ClassType> *list)$/;"	f	class:Type
+attribute	../include/FieldList.hxx	/^		AttributeDeclaration *attribute;$/;"	m	class:FieldListItem
+attributeList	../include/Type.hxx	/^		Array<PropertyDeclaration> attributeList;$/;"	m	class:ClassType
+base	../include/Expression.hxx	/^		Expression *base, *index;$/;"	m	class:ArrayExpression
+base	../include/NameSpace.hxx	/^		ClassSpace *base;$/;"	m	class:ClassSpace
+base	../include/Type.hxx	/^		InternalType *base;$/;"	m	class:InternalType
+base	../include/Type.hxx	/^		Type *base;$/;"	m	class:ArrayType
+blockStatementCount	../include/Component.hxx	/^		int blockStatementCount;$/;"	m	class:ComponentType
+body	../include/Declaration.hxx	/^		Array<InclusionBodyItem> *body;$/;"	m	class:InclusionBody
+body	../include/Declaration.hxx	/^		Array<InclusionBodyItem> *body;$/;"	m	class:InclusionDeclaration
+body	../include/Declaration.hxx	/^		BlockStatement *body;$/;"	m	class:ExecutionDeclaration
+callList	../include/Declaration.hxx	/^		Array<ConstructorCall> *callList;$/;"	m	class:ConstructorDeclaration
+canInstantiate	Type.cxx	/^bool ClassType::canInstantiate ()$/;"	f	class:ClassType
+canInstantiate	Type.cxx	/^bool InternalType::canInstantiate ()$/;"	f	class:InternalType
+cast	Cast.cxx	/^void Cast::cast (int direction, PropertyDeclaration *property)$/;"	f	class:Cast
+cast	Cast.cxx	/^void CastObject::cast (int direction, PropertyDeclaration *property)$/;"	f	class:CastObject
+castDown	Cast.cxx	/^void Cast::castDown (PropertyDeclaration *property)$/;"	f	class:Cast
+castFrom	Declaration.cxx	/^MethodDeclaration *MethodDeclaration::castFrom (MethodDeclaration *sig, Array<ComponentDeclaration> *upPath, Array<ComponentDeclaration> *downPath, ClassType *owner)$/;"	f	class:MethodDeclaration
+castPathx	../include/ResolveManager.hxx	/^		Cast castPathx[1];$/;"	m	class:ExpressionResolve
+castUp	Cast.cxx	/^Type *CastObject::castUp (PropertyDeclaration *property)$/;"	f	class:CastObject
+castUp	Cast.cxx	/^void Cast::castUp (PropertyDeclaration *property)$/;"	f	class:Cast
+checkCounters	ConstructorManager.cxx	/^void ClassConstructor::checkCounters (ConstructorDeclaration *caller)$/;"	f	class:ClassConstructor
+clone	Declaration.cxx	/^AssociationDeclaration *AssociationDeclaration::clone ()$/;"	f	class:AssociationDeclaration
+cm	../include/Declaration.hxx	/^		PropertyConstructor cm;$/;"	m	class:PropertyDeclaration
+cm	../include/Type.hxx	/^		ClassConstructor cm;$/;"	m	class:ClassType
+compile	Program.cxx	/^bool Program::compile (const char *fname, const char *mainfunction)$/;"	f	class:Program
+component	../include/NT.hxx	/^		ComponentType *component;$/;"	m	class:NT
+condition	../include/Expression.hxx	/^		Expression *condition, *expression0, *expression1;$/;"	m	class:ConditionalExpression
+constructorCall	../include/Expression.hxx	/^		CallExpression *constructorCall;$/;"	m	class:ConstructorCallExpression
+constructorList	../include/ConstructorManager.hxx	/^		Polymorphic constructorList;$/;"	m	class:ClassConstructor
+containInclusion	Declaration.cxx	/^bool MapDeclaration::containInclusion (SuperDeclaration *super)$/;"	f	class:MapDeclaration
+containInclusion	Declaration.cxx	/^bool PropertyDeclaration::containInclusion (SuperDeclaration *)$/;"	f	class:PropertyDeclaration
+container	../include/Declaration.hxx	/^		ClassType *container;$/;"	m	class:PropertyDeclaration
+container	../include/Declaration.hxx	/^		ClassType *container;$/;"	m	class:SingleInitializedIdentifier
+count	../include/Array.hxx	/^		int count;$/;"	m	class:Array
+counter	../include/ConstructorManager.hxx	/^		int counter;$/;"	m	class:PropertyConstructor
+ct	../include/ConstructorManager.hxx	/^		ClassType *ct;$/;"	m	class:ClassConstructor
+ct	../include/ResolveManager.hxx	/^		ClassType *ct;$/;"	m	class:ClassResolve
+curComponent	Component.cxx	/^ComponentType *curComponent;$/;"	v
+dbg_print	Declaration.cxx	/^void Declaration::dbg_print ()$/;"	f	class:Declaration
+declaration	../include/NameSpace.hxx	/^		Declaration *declaration;$/;"	m	class:SimpleSymbol
+delegateList	../include/Declaration.hxx	/^		Array<Delegate> *delegateList;$/;"	m	class:InstanceDeclaration
+delegateList	../include/Declaration.hxx	/^		Array<MapDelegate> delegateList;$/;"	m	class:MapDeclaration
+designator	../include/Declaration.hxx	/^		Array<Designator> *designator;$/;"	m	class:Initializer
+dimension	../include/Declaration.hxx	/^		Array<IntegerExpression> *dimension;$/;"	m	class:InstanceDeclaration
+direction	../include/Cast.hxx	/^		int direction;$/;"	m	class:CastItem
+disambiguation	../include/Declaration.hxx	/^		Disambiguation *disambiguation;$/;"	m	class:InclusionBody
+disambiguation	../include/Declaration.hxx	/^		Disambiguation *disambiguation;$/;"	m	class:InclusionDeclaration
+down	Type.cxx	/^void ClassType::down (Cast *castPath)$/;"	f	class:ClassType
+enterBlock	Component.cxx	/^void ComponentType::enterBlock ()$/;"	f	class:ComponentType
+entry	../include/Type.hxx	/^		const char *entry;$/;"	m	class:VTValue
+enumeration	../include/Expression.hxx	/^		EnumerationItem *enumeration;$/;"	m	class:FieldExpression
+equal	Type.cxx	/^bool ArrayType::equal (Type *type)$/;"	f	class:ArrayType
+equal	Type.cxx	/^bool ExecutionType::equal (Type *type)$/;"	f	class:ExecutionType
+equal	Type.cxx	/^bool NamedType::equal (Type *type)$/;"	f	class:NamedType
+equal	Type.cxx	/^bool NullType::equal (Type *type)$/;"	f	class:NullType
+equal	Type.cxx	/^bool TransitionType::equal (Type *type)$/;"	f	class:TransitionType
+erAmbigious	Identifier.cxx	/^void Identifier::erAmbigious ()$/;"	f	class:Identifier
+erDuplicate	Identifier.cxx	/^void Identifier::erDuplicate ()$/;"	f	class:Identifier
+erUndefined	Identifier.cxx	/^void Identifier::erUndefined ()$/;"	f	class:Identifier
+error	../include/Component.hxx	/^		bool error;$/;"	m	class:ComponentType
+error	../include/Program.hxx	/^		bool error;$/;"	m	class:Program
+error	NT.cxx	/^void NT::error (const char *format, ...)$/;"	f	class:NT
+expression	../include/Declaration.hxx	/^		Expression *expression;$/;"	m	class:ExpressionDesignator
+expression	../include/Declaration.hxx	/^		Expression *expression;$/;"	m	class:ExpressionInitializer
+expression	../include/Declaration.hxx	/^		Expression *expression;$/;"	m	class:StateInitializer
+expression	../include/Expression.hxx	/^		Expression *expression;$/;"	m	class:CastExpression
+expression	../include/Expression.hxx	/^		Expression *expression;$/;"	m	class:UnaryExpression
+expression	../include/Statement.hxx	/^		Expression *expression;$/;"	m	class:DoStatement
+expression	../include/Statement.hxx	/^		Expression *expression;$/;"	m	class:ExpressionStatement
+expression	../include/Statement.hxx	/^		Expression *expression;$/;"	m	class:IfStatement
+expression	../include/Statement.hxx	/^		Expression *expression;$/;"	m	class:ReturnStatement
+expression	../include/Statement.hxx	/^		Expression *expression;$/;"	m	class:SwitchStatement
+expression	../include/Statement.hxx	/^		Expression *expression;$/;"	m	class:WhileStatement
+expression0	../include/Expression.hxx	/^		Expression *condition, *expression0, *expression1;$/;"	m	class:ConditionalExpression
+expression0	../include/Statement.hxx	/^		Expression *expression0;$/;"	m	class:ForStatement
+expression1	../include/Expression.hxx	/^		Expression *condition, *expression0, *expression1;$/;"	m	class:ConditionalExpression
+expression1	../include/Statement.hxx	/^		Expression *expression1;$/;"	m	class:ForStatement
+expression2	../include/Statement.hxx	/^		Expression *expression2;$/;"	m	class:ForStatement
+extension	../include/NameSpace.hxx	/^		Array<InstanceDeclaration> extension;$/;"	m	class:ComponentSpace
+extension	../include/NameSpace.hxx	/^		Array<MapDeclaration> extension;$/;"	m	class:ClassSpace
+fill	Type.cxx	/^VTable *VTableType::fill (const char *name, Array<ComponentDeclaration> *path, ClassType *owner)$/;"	f	class:VTableType
+find	../include/Array.hxx	/^		bool find (T *item)$/;"	f	class:Array
+find	FieldList.cxx	/^FieldListItem *FieldList::find (Identifier *identifier)$/;"	f	class:FieldList
+findConstructor	ConstructorManager.cxx	/^ConstructorDeclaration *ClassConstructor::findConstructor (ExpressionList *argList)$/;"	f	class:ClassConstructor
+findDown	Declaration.cxx	/^ComponentDeclaration *MapDeclaration::findDown (ClassType *s)$/;"	f	class:MapDeclaration
+findDown	Declaration.cxx	/^ComponentDeclaration *SuperDeclaration::findDown (ClassType *s)$/;"	f	class:SuperDeclaration
+findMapByContainer	Declaration.cxx	/^MapDeclaration *InstanceDeclaration::findMapByContainer (ClassType *s)$/;"	f	class:InstanceDeclaration
+findMapByType	Declaration.cxx	/^MapDeclaration *InstanceDeclaration::findMapByType (ClassType *s)$/;"	f	class:InstanceDeclaration
+findMapByType	Declaration.cxx	/^MapDeclaration *InstanceDeclaration::findMapByType (Identifier *id)$/;"	f	class:InstanceDeclaration
+findSet	Expression.cxx	/^PropertyDeclaration *ConstructorCallByID::findSet (ClassType *set, BlockSpace *ns)$/;"	f	class:ConstructorCallByID
+findSet	Expression.cxx	/^PropertyDeclaration *ConstructorCallByQID::findSet (ClassType *set, BlockSpace *ns)$/;"	f	class:ConstructorCallByQID
+findSet	Expression.cxx	/^PropertyDeclaration *ConstructorCallBySet::findSet (ClassType *set2, BlockSpace *ns)$/;"	f	class:ConstructorCallBySet
+findSet	Expression.cxx	/^PropertyDeclaration *ConstructorCallImplicit::findSet (ClassType *set, BlockSpace *ns)$/;"	f	class:ConstructorCallImplicit
+findUp	Declaration.cxx	/^ComponentDeclaration *MapDeclaration::findUp (ClassType *s)$/;"	f	class:MapDeclaration
+findUp	Declaration.cxx	/^ComponentDeclaration *SuperDeclaration::findUp (ClassType *s)$/;"	f	class:SuperDeclaration
+flAdd	FieldList.cxx	/^void FieldList::flAdd (AttributeDeclaration *attribute)$/;"	f	class:FieldList
+flIsType	FieldList.cxx	/^bool FieldList::flIsType (Identifier *identifier)$/;"	f	class:FieldList
+flLookup	FieldList.cxx	/^Type *FieldList::flLookup (Identifier *identifier)$/;"	f	class:FieldList
+flMakeType	FieldList.cxx	/^InternalType *FieldList::flMakeType (Identifier *identifier)$/;"	f	class:FieldList
+flat	Identifier.cxx	/^void QualifiedIdentifier::flat (char *buffer, char sep)$/;"	f	class:QualifiedIdentifier
+flat	Identifier.cxx	/^void QualifiedIdentifier::flat (char *buffer, int count, char sep)$/;"	f	class:QualifiedIdentifier
+fname	../include/Component.hxx	/^		const char *fname;$/;"	m	class:ComponentType
+follow	Cast.cxx	/^Type *Cast::follow (PropertyDeclaration *property)$/;"	f	class:Cast
+formSet	Component.cxx	/^void ComponentType::formSet ()$/;"	f	class:ComponentType
+formSet	Declaration.cxx	/^void AssociationDeclaration::formSet ()$/;"	f	class:AssociationDeclaration
+formSet	Declaration.cxx	/^void AttributeDeclaration::formSet ()$/;"	f	class:AttributeDeclaration
+formSet	Declaration.cxx	/^void Declaration::formSet ()$/;"	f	class:Declaration
+formSet	Declaration.cxx	/^void ExecutionDeclaration::formSet ()$/;"	f	class:ExecutionDeclaration
+formSet	Declaration.cxx	/^void ExplicitDeclaration::formSet ()$/;"	f	class:ExplicitDeclaration
+formSet	Declaration.cxx	/^void InclusionDeclaration::formSet ()$/;"	f	class:InclusionDeclaration
+formSet	Declaration.cxx	/^void InstanceDeclaration::formSet ()$/;"	f	class:InstanceDeclaration
+formSet	Declaration.cxx	/^void MapDeclaration::formSet (ClassType *_type)$/;"	f	class:MapDeclaration
+formSet	Type.cxx	/^void ClassType::formSet ()$/;"	f	class:ClassType
+from	../include/Type.hxx	/^		Type *from;$/;"	m	class:TransitionType
+front	Program.cxx	/^ComponentType *Program::front (const char *fname)$/;"	f	class:Program
+generateAssignment	Type.cxx	/^Statement *VTableType::generateAssignment ()$/;"	f	class:VTableType
+getLast	Cast.cxx	/^PropertyDeclaration *Cast::getLast ()$/;"	f	class:Cast
+getLast	Cast.cxx	/^PropertyDeclaration *CastObject::getLast ()$/;"	f	class:CastObject
+getType	Cast.cxx	/^Type *CastItem::getType ()$/;"	f	class:CastItem
+getType	Cast.cxx	/^Type *CastObject::getType ()$/;"	f	class:CastObject
+getdown	Cast.cxx	/^void Cast::getdown (Mapper *mapper)$/;"	f	class:Cast
+getup	Cast.cxx	/^void Cast::getup ()$/;"	f	class:Cast
+getup	Cast.cxx	/^void Cast::getup (Mapper *mapper)$/;"	f	class:Cast
+getup	Cast.cxx	/^void CastObject::getup ()$/;"	f	class:CastObject
+has	Declaration.cxx	/^bool Modifier::has (int v)$/;"	f	class:Modifier
+hasEntry	Type.cxx	/^bool VTableType::hasEntry ()$/;"	f	class:VTableType
+hasInclusion	Component.cxx	/^bool ComponentType::hasInclusion (ClassType *super, ClassType *sub)$/;"	f	class:ComponentType
+hasInclusion	Declaration.cxx	/^bool InclusionDeclaration::hasInclusion (ClassType *super, ClassType *sub)$/;"	f	class:InclusionDeclaration
+hasLeft	Declaration.cxx	/^bool SuperDeclaration::hasLeft (Array<ClassType> *list)$/;"	f	class:SuperDeclaration
+identifier	../include/Declaration.hxx	/^		Identifier *identifier;$/;"	m	class:Declaration
+identifier	../include/Declaration.hxx	/^		Identifier *identifier;$/;"	m	class:IdentifierDesignator
+identifier	../include/Declaration.hxx	/^		Identifier *identifier;$/;"	m	class:InitializedIdentifier
+identifier	../include/Declaration.hxx	/^		Identifier *identifier;$/;"	m	class:StateAttributeDeclaration
+identifier	../include/Expression.hxx	/^		Identifier *identifier;$/;"	m	class:ConstructorCallByID
+identifier	../include/Expression.hxx	/^		Identifier *identifier;$/;"	m	class:FieldExpression
+identifier	../include/NameSpace.hxx	/^		Identifier *identifier;$/;"	m	class:Symbol
+identifier	../include/Type.hxx	/^		Identifier *identifier;$/;"	m	class:NamedType
+importList	../include/Component.hxx	/^		Array<QualifiedIdentifier> importList;$/;"	m	class:ComponentType
+incCounter	ConstructorManager.cxx	/^int PropertyConstructor::incCounter ()$/;"	f	class:PropertyConstructor
+inclusion	../include/Declaration.hxx	/^		InclusionDeclaration *inclusion;$/;"	m	class:SuperDeclaration
+inclusion	../include/Declaration.hxx	/^		UniqueArray<ClassType> *inclusion;$/;"	m	class:InclusionDeclaration
+index	../include/Expression.hxx	/^		Expression *base, *index;$/;"	m	class:ArrayExpression
+index	../include/Type.hxx	/^		IntegerExpression *index;$/;"	m	class:ArrayType
+indexName	../include/Type.hxx	/^		int indexName;$/;"	m	class:ClassType
+init	Mapper.cxx	/^void Mapper::init (MapDeclaration *map)$/;"	f	class:Mapper
+initCounters	ConstructorManager.cxx	/^void ClassConstructor::initCounters ()$/;"	f	class:ClassConstructor
+initializer	../include/Declaration.hxx	/^		Initializer *initializer;$/;"	m	class:AttributeDeclaration
+initializer	../include/Declaration.hxx	/^		Initializer *initializer;$/;"	m	class:InitializedIdentifier
+initializer	../include/Declaration.hxx	/^		UniqueArray<StateInitializer> *initializer;$/;"	m	class:StateAttributeDeclaration
+initializer	../include/Statement.hxx	/^		Initializer *initializer;$/;"	m	class:DeclarationStatement
+instance	../include/Declaration.hxx	/^		Identifier *instance, *instanceSet;$/;"	m	class:Delegate
+instance	../include/Declaration.hxx	/^		InstanceDeclaration *instance;$/;"	m	class:MapDeclaration
+instance	../include/Type.hxx	/^		InstanceDeclaration *instance;$/;"	m	class:SetDelegate
+instanceList	../include/Component.hxx	/^		Array<InstanceDeclaration> instanceList;$/;"	m	class:ComponentType
+instanceSet	../include/Declaration.hxx	/^		Identifier *instance, *instanceSet;$/;"	m	class:Delegate
+interface	../include/Component.hxx	/^		Array<InterfaceType> interface;$/;"	m	class:ComponentType
+internal	../include/Component.hxx	/^		Array<InternalType> internal;$/;"	m	class:ComponentType
+internalError	NT.cxx	/^void NT::internalError (const char *format, ...)$/;"	f	class:NT
+isAbstract	../include/Type.hxx	/^		bool isAbstract;$/;"	m	class:ClassType
+isEmpty	Cast.cxx	/^bool CastObject::isEmpty (bool withLast)$/;"	f	class:CastObject
+isInBlock	Component.cxx	/^bool ComponentType::isInBlock ()$/;"	f	class:ComponentType
+isInternal	../include/Type.hxx	/^		bool isInternal;$/;"	m	class:ClassType
+isProperty	../include/Declaration.hxx	/^		bool isProperty;$/;"	m	class:Declaration
+isRef	../include/Declaration.hxx	/^		bool isRef;$/;"	m	class:Declaration
+isState	../include/Type.hxx	/^		bool isState;$/;"	m	class:ClassType
+isType	FieldList.cxx	/^bool FieldListItem::isType ()$/;"	f	class:FieldListItem
+item	../include/Component.hxx	/^		Array<Declaration> item;$/;"	m	class:ComponentType
+label	../include/Statement.hxx	/^		Identifier *label;$/;"	m	class:GotoStatement
+label	../include/Statement.hxx	/^		Identifier *label;$/;"	m	class:LabeledStatement
+label	../include/Statement.hxx	/^		Identifier *label;$/;"	m	class:SwitchIdentifierLabel
+label	../include/Statement.hxx	/^		IntegerExpression *label;$/;"	m	class:SwitchIntegerLabel
+leaveBlock	Component.cxx	/^void ComponentType::leaveBlock ()$/;"	f	class:ComponentType
+left	../include/Declaration.hxx	/^		ClassType *left;$/;"	m	class:InclusionDeclaration
+left	../include/Declaration.hxx	/^		Identifier *left, *right;$/;"	m	class:Delegate
+left	../include/Declaration.hxx	/^		MethodDeclaration *left, *right;$/;"	m	class:MapDelegate
+left	../include/Expression.hxx	/^		Expression *left, *right;$/;"	m	class:AssignExpression
+left	../include/Expression.hxx	/^		Expression *left, *right;$/;"	m	class:BinaryExpression
+left	../include/Type.hxx	/^		Identifier *left, *right;$/;"	m	class:SetDelegate
+line	../include/NT.hxx	/^		int line;$/;"	m	class:NT
+list	../include/Declaration.hxx	/^		Array<ArgumentDeclaration> list;$/;"	m	class:ArgumentDeclarationList
+list	../include/Declaration.hxx	/^		Array<Initializer> *list;$/;"	m	class:ArrayInitializer
+list	../include/Declaration.hxx	/^		Array<TransitionState> list;$/;"	m	class:TransitionDeclaration
+list	../include/Expression.hxx	/^		Array<Expression> list;$/;"	m	class:ExpressionList
+list	../include/FieldList.hxx	/^		Array<FieldListItem> list;$/;"	m	class:FieldList
+list	../include/Identifier.hxx	/^		Array<Identifier> list;$/;"	m	class:QualifiedIdentifier
+list	../include/NameSpace.hxx	/^		Array<ExecutionDeclaration> list;$/;"	m	class:Polymorphic
+list	../include/NameSpace.hxx	/^		UniqueArray<Symbol> list;$/;"	m	class:NameSpace
+list	../include/Statement.hxx	/^		Array<Statement> *list;$/;"	m	class:BlockStatement
+list	../include/Statement.hxx	/^		Array<SwitchItem> list;$/;"	m	class:SwitchItemList
+list	../include/Statement.hxx	/^		SwitchItemList *list;$/;"	m	class:SwitchStatement
+list	../include/Type.hxx	/^		Array<VTValue> list;$/;"	m	class:VTable
+list	../include/Type.hxx	/^		UniqueArray<ClassType> *list;$/;"	m	class:UnificationList
+list	../include/Type.hxx	/^		UniqueArray<EnumerationItem> *list;$/;"	m	class:EnumerationType
+literal	../include/Type.hxx	/^		IntegerExpression *literal;$/;"	m	class:EnumerationItem
+lookup	../include/Array.hxx	/^		T *lookup (Identifier *id)$/;"	f	class:Array
+lookup	../include/Array.hxx	/^		T *lookup (Identifier *identifier)$/;"	f	class:UniqueArray
+lookup	Expression.cxx	/^Type *FieldExpression::lookup (ComponentType *component2, ClassType *set, BlockSpace *ns, ExpressionList *argList)$/;"	f	class:FieldExpression
+lookup	NameSpace.cxx	/^Declaration *BlockSpace::lookup (Identifier *identifier)$/;"	f	class:BlockSpace
+lookup	NameSpace.cxx	/^Declaration *ComponentSpace::lookup (Identifier *identifier, ExpressionList *argList)$/;"	f	class:ComponentSpace
+lookup	NameSpace.cxx	/^Declaration *Polymorphic::lookup (ExpressionList *argList)$/;"	f	class:Polymorphic
+lookup	NameSpace.cxx	/^Declaration *PolymorphicSymbol::lookup (ExpressionList *argList)$/;"	f	class:PolymorphicSymbol
+lookup	NameSpace.cxx	/^Declaration *SimpleSymbol::lookup (ExpressionList *argList)$/;"	f	class:SimpleSymbol
+lookup	NameSpace.cxx	/^Declaration *Symbol::lookup (ExpressionList *argList)$/;"	f	class:Symbol
+lookup	NameSpace.cxx	/^Declaration *TypeSymbol::lookup (ExpressionList *argList)$/;"	f	class:TypeSymbol
+lookup	NameSpace.cxx	/^ExecutionDeclaration *Polymorphic::lookup (ExecutionType *methodType)$/;"	f	class:Polymorphic
+lookup	NameSpace.cxx	/^PropertyDeclaration *ClassSpace::lookup (Identifier *identifier, ExpressionList *argList, Array<ComponentDeclaration> *path)$/;"	f	class:ClassSpace
+lookupInstance	Component.cxx	/^InstanceDeclaration *ComponentType::lookupInstance (Identifier *identifier)$/;"	f	class:ComponentType
+lookupMethod	NameSpace.cxx	/^MethodDeclaration *ClassSpace::lookupMethod (MethodDeclaration *method)$/;"	f	class:ClassSpace
+lookupMethod	NameSpace.cxx	/^Polymorphic *ClassSpace::lookupMethod (Identifier *identifier)$/;"	f	class:ClassSpace
+lookupMethod	NameSpace.cxx	/^Polymorphic *ClassSpace::lookupMethod (Identifier *identifier, Array<ComponentDeclaration> *path)$/;"	f	class:ClassSpace
+lookupNonExternMethod	NameSpace.cxx	/^MethodDeclaration *ClassSpace::lookupNonExternMethod (MethodDeclaration *method, Array<ComponentDeclaration> *downPath)$/;"	f	class:ClassSpace
+lookupType	Component.cxx	/^Type *ComponentType::lookupType (Identifier *identifier)$/;"	f	class:ComponentType
+lookupType	NameSpace.cxx	/^Type *ComponentSpace::lookupType (Identifier *identifier)$/;"	f	class:ComponentSpace
+main	main.cxx	/^int main (int argc, char **argv)$/;"	f
+mainSet	../include/Type.hxx	/^		bool mainSet;$/;"	m	class:ClassType
+make	Type.cxx	/^Type *ArrayType::make (Type *base, Array<IntegerExpression> *dimension)$/;"	f	class:ArrayType
+makeCall	Expression.cxx	/^void ConstructorCallExpression::makeCall (PropertyDeclaration *pd, ConstructorDeclaration *constructor)$/;"	f	class:ConstructorCallExpression
+makeCallArgument	Type.cxx	/^Expression *VTableType::makeCallArgument (PropertyDeclaration *pd)$/;"	f	class:VTableType
+makeName	Type.cxx	/^Identifier *ClassType::makeName (ComponentType *component, int line)$/;"	f	class:ClassType
+makeType	FieldList.cxx	/^InternalType *FieldListItem::makeType ()$/;"	f	class:FieldListItem
+map	Declaration.cxx	/^void MapDeclaration::map ()$/;"	f	class:MapDeclaration
+map	Type.cxx	/^void ClassType::map (MapDeclaration *map)$/;"	f	class:ClassType
+mapAttributes	../include/Type.hxx	/^		Array<MapDeclaration> mapAttributes;$/;"	m	class:ClassType
+mapList	../include/Declaration.hxx	/^		Array<MapDeclaration> *mapList;$/;"	m	class:InstanceDeclaration
+mapSet	Component.cxx	/^void ComponentType::mapSet ()$/;"	f	class:ComponentType
+mapSet	Declaration.cxx	/^void Declaration::mapSet ()$/;"	f	class:Declaration
+mapSet	Declaration.cxx	/^void InstanceDeclaration::mapSet ()$/;"	f	class:InstanceDeclaration
+mapper	../include/ResolveManager.hxx	/^		Mapper mapper;$/;"	m	class:ClassResolve
+markDuplicate	FieldList.cxx	/^void FieldListItem::markDuplicate ()$/;"	f	class:FieldListItem
+markVirtual	Type.cxx	/^void ClassType::markVirtual ()$/;"	f	class:ClassType
+markVirtual	Type.cxx	/^void ClassType::markVirtual (MethodDeclaration *m)$/;"	f	class:ClassType
+markVirtual2	Type.cxx	/^void ClassType::markVirtual2 (MethodDeclaration *m)$/;"	f	class:ClassType
+match	../include/Array.hxx	/^		T *match (T *item)$/;"	f	class:UniqueArray
+match	Declaration.cxx	/^bool ArgumentDeclarationList::match (ArgumentDeclarationList *argList)$/;"	f	class:ArgumentDeclarationList
+match	Declaration.cxx	/^bool Delegate::match (Delegate *delegate)$/;"	f	class:Delegate
+match	Declaration.cxx	/^bool StateInitializer::match (StateInitializer *st)$/;"	f	class:StateInitializer
+match	FieldList.cxx	/^bool FieldListItem::match (FieldListItem *fli)$/;"	f	class:FieldListItem
+match	Identifier.cxx	/^bool Identifier::match (Identifier *identifier)$/;"	f	class:Identifier
+match	Identifier.cxx	/^bool QualifiedIdentifier::match (Identifier *identifier)$/;"	f	class:QualifiedIdentifier
+match	Identifier.cxx	/^bool QualifiedIdentifier::match (QualifiedIdentifier *qid, int count)$/;"	f	class:QualifiedIdentifier
+match	Mapper.cxx	/^int Mapper::match (Array<Declaration> *dest)$/;"	f	class:Mapper
+match	NameSpace.cxx	/^bool Symbol::match (Identifier *id)$/;"	f	class:Symbol
+match	NameSpace.cxx	/^bool Symbol::match (Symbol *symbol)$/;"	f	class:Symbol
+match	Type.cxx	/^bool ArrayType::match (Type *type)$/;"	f	class:ArrayType
+match	Type.cxx	/^bool ClassType::match (Type *type)$/;"	f	class:ClassType
+match	Type.cxx	/^bool EnumerationItem::match (EnumerationItem *item)$/;"	f	class:EnumerationItem
+match	Type.cxx	/^bool EnumerationType::match (Type *t)$/;"	f	class:EnumerationType
+match	Type.cxx	/^bool ExecutionType::match (Type *type)$/;"	f	class:ExecutionType
+match	Type.cxx	/^bool TransitionType::match (Type *type)$/;"	f	class:TransitionType
+match	Type.cxx	/^bool Type::match (Type *type)$/;"	f	class:Type
+match	Type.cxx	/^bool TypedefDeclaration::match (Type *t)$/;"	f	class:TypedefDeclaration
+matchComponent	Declaration.cxx	/^bool InstanceDeclaration::matchComponent (Identifier *identifier)$/;"	f	class:InstanceDeclaration
+matchIdentifier	Declaration.cxx	/^bool Declaration::matchIdentifier (Identifier *id)$/;"	f	class:Declaration
+matchim	../include/Array.hxx	/^		bool (*matchim) (T *t1, T *t2);$/;"	m	class:UniqueArray
+method	../include/Expression.hxx	/^		Expression *method;$/;"	m	class:CallExpression
+methodList	../include/Type.hxx	/^		Array<MethodDeclaration> methodList;$/;"	m	class:ClassType
+methodList	../include/Type.hxx	/^		Array<MethodDeclaration> methodList;$/;"	m	class:VTableType
+modifier	../include/Declaration.hxx	/^		Modifier *modifier;$/;"	m	class:Declaration
+modifier	../include/Type.hxx	/^		Modifier *modifier;$/;"	m	class:ClassType
+needPublish	Expression.cxx	/^bool Expression::needPublish ()$/;"	f	class:Expression
+needPublish	Expression.cxx	/^bool FieldExpression::needPublish ()$/;"	f	class:FieldExpression
+ns	../include/ResolveManager.hxx	/^		ClassSpace ns;$/;"	m	class:ClassResolve
+nsp	../include/Type.hxx	/^		ContainerSpace *nsp;$/;"	m	class:ContainerType
+object	../include/Cast.hxx	/^		Array<CastObject> object;$/;"	m	class:Cast
+object	../include/Expression.hxx	/^		Expression *object;$/;"	m	class:FieldExpression
+op	../include/Expression.hxx	/^		int op;$/;"	m	class:BinaryExpression
+op	../include/Expression.hxx	/^		int op;$/;"	m	class:UnaryExpression
+ordered	../include/Component.hxx	/^		Array<ClassType> ordered;$/;"	m	class:ComponentType
+package	../include/Component.hxx	/^		QualifiedIdentifier *package;$/;"	m	class:ComponentType
+parent	../include/NameSpace.hxx	/^		BlockSpace *parent;$/;"	m	class:BlockSpace
+parse	Program.cxx	/^ComponentType *Program::parse (const char *fname)$/;"	f	class:Program
+path	../include/Cast.hxx	/^		Array<CastItem> path;$/;"	m	class:CastObject
+pathx	../include/Mapper.hxx	/^		Array<MapDeclaration> pathx;$/;"	m	class:Mapper
+pname	../include/Component.hxx	/^		const char *pname;$/;"	m	class:ComponentType
+pname	../include/Declaration.hxx	/^		const char *pname;$/;"	m	class:Declaration
+pname	../include/Type.hxx	/^		const char *pname;$/;"	m	class:ClassType
+poly	../include/NameSpace.hxx	/^		Polymorphic poly;$/;"	m	class:PolymorphicSymbol
+program	Program.cxx	/^Program program;$/;"	v
+property	../include/Cast.hxx	/^		PropertyDeclaration *property;$/;"	m	class:CastItem
+propertyList	../include/Declaration.hxx	/^		Array<PropertyDeclaration> *propertyList;$/;"	m	class:ExplicitDeclaration
+propertyList	../include/Type.hxx	/^		Array<Declaration> propertyList;$/;"	m	class:ContainerType
+publish	Cast.cxx	/^void Cast::publish (FILE *f, bool complete, Expression *expression)$/;"	f	class:Cast
+publish	Component.cxx	/^bool ComponentType::publish (const char *mainfunction)$/;"	f	class:ComponentType
+publish	Declaration.cxx	/^void ArgumentDeclarationList::publish (FILE *f, ClassType *container, bool needVT)$/;"	f	class:ArgumentDeclarationList
+publish	Declaration.cxx	/^void Declaration::publish (FILE *f)$/;"	f	class:Declaration
+publish	Expression.cxx	/^void ConstructorCallExpression::publish (FILE *f)$/;"	f	class:ConstructorCallExpression
+publish	Expression.cxx	/^void Expression::publish (FILE *f)$/;"	f	class:Expression
+publish	Identifier.cxx	/^void Identifier::publish (FILE *f)$/;"	f	class:Identifier
+publish	Mapper.cxx	/^void Mapper::publish (FILE *f, int index)$/;"	f	class:Mapper
+publish	Statement.cxx	/^void BlockStatement::publish (int newIndent, int indent, FILE *f)$/;"	f	class:BlockStatement
+publish	Statement.cxx	/^void BreakStatement::publish (int newIndent, int indent, FILE *f)$/;"	f	class:BreakStatement
+publish	Statement.cxx	/^void ContinueStatement::publish (int newIndent, int indent, FILE *f)$/;"	f	class:ContinueStatement
+publish	Statement.cxx	/^void DeclarationStatement::publish (int newIndent, int indent, FILE *f)$/;"	f	class:DeclarationStatement
+publish	Statement.cxx	/^void DoStatement::publish (int newIndent, int indent, FILE *f)$/;"	f	class:DoStatement
+publish	Statement.cxx	/^void EmptyStatement::publish (int newIndent, int indent, FILE *f)$/;"	f	class:EmptyStatement
+publish	Statement.cxx	/^void ExpressionStatement::publish (int newIndent, int indent, FILE *f)$/;"	f	class:ExpressionStatement
+publish	Statement.cxx	/^void ForStatement::publish (int newIndent, int indent, FILE *f)$/;"	f	class:ForStatement
+publish	Statement.cxx	/^void GotoStatement::publish (int newIndent, int indent, FILE *f)$/;"	f	class:GotoStatement
+publish	Statement.cxx	/^void IfStatement::publish (int newIndent, int indent, FILE *f)$/;"	f	class:IfStatement
+publish	Statement.cxx	/^void LabeledStatement::publish (int newIndent, int indent, FILE *f)$/;"	f	class:LabeledStatement
+publish	Statement.cxx	/^void ReturnStatement::publish (int newIndent, int indent, FILE *f)$/;"	f	class:ReturnStatement
+publish	Statement.cxx	/^void SwitchDefault::publish (int newIndent, int indent, FILE *f)$/;"	f	class:SwitchDefault
+publish	Statement.cxx	/^void SwitchIdentifierLabel::publish (int newIndent, int indent, FILE *f)$/;"	f	class:SwitchIdentifierLabel
+publish	Statement.cxx	/^void SwitchIntegerLabel::publish (int newIndent, int indent, FILE *f)$/;"	f	class:SwitchIntegerLabel
+publish	Statement.cxx	/^void SwitchItemList::publish (int indent, FILE *f)$/;"	f	class:SwitchItemList
+publish	Statement.cxx	/^void SwitchStatement::publish (int newIndent, int indent, FILE *f)$/;"	f	class:SwitchStatement
+publish	Statement.cxx	/^void WhileStatement::publish (int newIndent, int indent, FILE *f)$/;"	f	class:WhileStatement
+publish	Type.cxx	/^void EnumerationItem::publish (FILE *f)$/;"	f	class:EnumerationItem
+publish	Type.cxx	/^void VTDeclaration::publish (FILE *f, int indent)$/;"	f	class:VTDeclaration
+publish	Type.cxx	/^void VTable::publish (FILE *f)$/;"	f	class:VTable
+publish	Type.cxx	/^void VTable::publish (FILE *f, int indent)$/;"	f	class:VTable
+publish2	Expression.cxx	/^void ArrayExpression::publish2 (FILE *f)$/;"	f	class:ArrayExpression
+publish2	Expression.cxx	/^void AssignExpression::publish2 (FILE *f)$/;"	f	class:AssignExpression
+publish2	Expression.cxx	/^void BinaryExpression::publish2 (FILE *f)$/;"	f	class:BinaryExpression
+publish2	Expression.cxx	/^void CallExpression::publish2 (FILE *f)$/;"	f	class:CallExpression
+publish2	Expression.cxx	/^void CastExpression::publish2 (FILE *f)$/;"	f	class:CastExpression
+publish2	Expression.cxx	/^void ConditionalExpression::publish2 (FILE *f)$/;"	f	class:ConditionalExpression
+publish2	Expression.cxx	/^void ConstructorCall::publish2 (FILE *f)$/;"	f	class:ConstructorCall
+publish2	Expression.cxx	/^void FieldExpression::publish2 (FILE *f)$/;"	f	class:FieldExpression
+publish2	Expression.cxx	/^void LiteralExpression::publish2 (FILE *f)$/;"	f	class:LiteralExpression
+publish2	Expression.cxx	/^void NewExpression::publish2 (FILE *f)$/;"	f	class:NewExpression
+publish2	Expression.cxx	/^void UnaryExpression::publish2 (FILE *f)$/;"	f	class:UnaryExpression
+publishArgument	Type.cxx	/^void VTableType::publishArgument (FILE *f)$/;"	f	class:VTableType
+publishAttribute	Declaration.cxx	/^void Declaration::publishAttribute (FILE *f, bool header)$/;"	f	class:Declaration
+publishClass	Type.cxx	/^void VTableType::publishClass (FILE *f)$/;"	f	class:VTableType
+publishEntry	Type.cxx	/^void VTableType::publishEntry (FILE *f)$/;"	f	class:VTableType
+publishEntry	Type.cxx	/^void VTableType::publishEntry (FILE *f, const char *name)$/;"	f	class:VTableType
+publishExceptLast	Expression.cxx	/^void Expression::publishExceptLast (FILE *f)$/;"	f	class:Expression
+publishHeader	Component.cxx	/^bool ComponentType::publishHeader ()$/;"	f	class:ComponentType
+publishHeader	ConstructorManager.cxx	/^void ClassConstructor::publishHeader (FILE *f)$/;"	f	class:ClassConstructor
+publishHeader	Declaration.cxx	/^void Declaration::publishHeader (FILE *f)$/;"	f	class:Declaration
+publishHeader	Declaration.cxx	/^void ExecutionDeclaration::publishHeader (FILE *f)$/;"	f	class:ExecutionDeclaration
+publishHeader	Declaration.cxx	/^void InstanceDeclaration::publishHeader (FILE *f)$/;"	f	class:InstanceDeclaration
+publishHeader	Type.cxx	/^void ClassType::publishHeader (FILE *f)$/;"	f	class:ClassType
+publishLast	Expression.cxx	/^bool Expression::publishLast (FILE *f)$/;"	f	class:Expression
+publishMainFunction	Component.cxx	/^void ComponentType::publishMainFunction (FILE *f, const char *mainfunction)$/;"	f	class:ComponentType
+publishName	Type.cxx	/^void ClassType::publishName (FILE *f)$/;"	f	class:ClassType
+publishPost	Cast.cxx	/^void CastObject::publishPost (FILE *f, bool complete, bool hasPrev)$/;"	f	class:CastObject
+publishPost	Type.cxx	/^void ArrayType::publishPost (FILE *f)$/;"	f	class:ArrayType
+publishPost	Type.cxx	/^void Type::publishPost (FILE *f)$/;"	f	class:Type
+publishPostDown	Cast.cxx	/^void CastObject::publishPostDown (FILE *f, int index, bool hasPrev)$/;"	f	class:CastObject
+publishPostUp	Cast.cxx	/^int CastObject::publishPostUp (FILE *f, int begin)$/;"	f	class:CastObject
+publishPre	Cast.cxx	/^void CastObject::publishPre (FILE *f, bool complete)$/;"	f	class:CastObject
+publishPre	Type.cxx	/^void ArrayType::publishPre (bool withPost, bool asRef, FILE *f)$/;"	f	class:ArrayType
+publishPre	Type.cxx	/^void ClassType::publishPre (bool withPost, bool asRef, FILE *f)$/;"	f	class:ClassType
+publishPre	Type.cxx	/^void EnumerationType::publishPre (bool withPost, bool asRef, FILE *f)$/;"	f	class:EnumerationType
+publishPre	Type.cxx	/^void NamedType::publishPre (bool withPost, bool asRef, FILE *f)$/;"	f	class:NamedType
+publishPre	Type.cxx	/^void Type::publishPre (bool withPost, bool asRef, FILE *f)$/;"	f	class:Type
+publishPreUp	Cast.cxx	/^int CastObject::publishPreUp (FILE *f, int begin)$/;"	f	class:CastObject
+publishPrototype	Type.cxx	/^void VTableType::publishPrototype (FILE *f)$/;"	f	class:VTableType
+publishReference	Declaration.cxx	/^void Declaration::publishReference (FILE *f)$/;"	f	class:Declaration
+publishSignature	Declaration.cxx	/^void ExecutionDeclaration::publishSignature (FILE *f)$/;"	f	class:ExecutionDeclaration
+publishSource	Component.cxx	/^bool ComponentType::publishSource (const char *mainfunction)$/;"	f	class:ComponentType
+publishSource	ConstructorManager.cxx	/^void ClassConstructor::publishSource (FILE *f)$/;"	f	class:ClassConstructor
+publishSource	Declaration.cxx	/^void Declaration::publishSource (FILE *f)$/;"	f	class:Declaration
+publishSource	Declaration.cxx	/^void ExecutionDeclaration::publishSource (FILE *f)$/;"	f	class:ExecutionDeclaration
+publishSource	Type.cxx	/^void ClassType::publishSource (FILE *f)$/;"	f	class:ClassType
+publishVT	Declaration.cxx	/^void MethodDeclaration::publishVT (FILE *f)$/;"	f	class:MethodDeclaration
+publishVT	Type.cxx	/^void ClassType::publishVT (FILE *f)$/;"	f	class:ClassType
+publishVT	Type.cxx	/^void InternalType::publishVT (FILE *f)$/;"	f	class:InternalType
+publishx	Expression.cxx	/^void ExpressionList::publishx (FILE *f, bool comma)$/;"	f	class:ExpressionList
+putIndent	NT.cxx	/^void NT::putIndent (FILE *f, int indent)$/;"	f	class:NT
+qid	../include/Declaration.hxx	/^		QualifiedIdentifier *qid;$/;"	m	class:InstanceDeclaration
+qid	../include/Expression.hxx	/^		QualifiedIdentifier *qid;$/;"	m	class:ConstructorCallByQID
+qname	../include/Component.hxx	/^		QualifiedIdentifier *qname;$/;"	m	class:ComponentType
+remove	../include/Array.hxx	/^		void remove (T *item)$/;"	f	class:Array
+remove	../include/Array.hxx	/^		void remove (int index)$/;"	f	class:Array
+removeDuplicate	Declaration.cxx	/^void PropertyDeclaration::removeDuplicate ()$/;"	f	class:PropertyDeclaration
+removeDuplicate	Declaration.cxx	/^void SuperDeclaration::removeDuplicate ()$/;"	f	class:SuperDeclaration
+removeFront	../include/Array.hxx	/^		void removeFront ()$/;"	f	class:Array
+removeProperty	Type.cxx	/^void ClassType::removeProperty (PropertyDeclaration *prop)$/;"	f	class:ClassType
+reorder	Component.cxx	/^bool ComponentType::reorder ()$/;"	f	class:ComponentType
+resolve	Declaration.cxx	/^MethodDeclaration *MapDelegate::resolve (MethodDeclaration *md, Array<ComponentDeclaration> *downPath)$/;"	f	class:MapDelegate
+resolveVT	Declaration.cxx	/^MethodDeclaration *MapDeclaration::resolveVT (MethodDeclaration *method, Array<ComponentDeclaration> *upPath, Array<ComponentDeclaration> *downPath)$/;"	f	class:MapDeclaration
+resolveVT	Declaration.cxx	/^MethodDeclaration *MethodDeclaration::resolveVT (Array<ComponentDeclaration> *path, Array<ComponentDeclaration> *upPath, Array<ComponentDeclaration> *downPath)$/;"	f	class:MethodDeclaration
+resolveVT	Declaration.cxx	/^MethodDeclaration *SuperDeclaration::resolveVT (MethodDeclaration *method, Array<ComponentDeclaration> *upPath, Array<ComponentDeclaration> *downPath)$/;"	f	class:SuperDeclaration
+retType	../include/Declaration.hxx	/^		Type *retType;$/;"	m	class:ExecutionDeclaration
+retType	../include/Type.hxx	/^		Type *retType;$/;"	m	class:ExecutionType
+reverse	../include/Array.hxx	/^		void reverse ()$/;"	f	class:Array
+right	../include/Declaration.hxx	/^		Identifier *left, *right;$/;"	m	class:Delegate
+right	../include/Declaration.hxx	/^		MethodDeclaration *left, *right;$/;"	m	class:MapDelegate
+right	../include/Expression.hxx	/^		Expression *left, *right;$/;"	m	class:AssignExpression
+right	../include/Expression.hxx	/^		Expression *left, *right;$/;"	m	class:BinaryExpression
+right	../include/Type.hxx	/^		Identifier *left, *right;$/;"	m	class:SetDelegate
+rightPath	../include/Declaration.hxx	/^		Array<ComponentDeclaration> *rightPath;$/;"	m	class:MapDelegate
+rm	../include/Component.hxx	/^		ComponentResolve rm; \/\/ resolve manager$/;"	m	class:ComponentType
+rm	../include/Expression.hxx	/^		ExpressionResolve rm;$/;"	m	class:Expression
+rm	../include/Type.hxx	/^		ClassResolve rm;$/;"	m	class:ClassType
+same	Component.cxx	/^bool ComponentType::same (ComponentType *component)$/;"	f	class:ComponentType
+same	Identifier.cxx	/^bool QualifiedIdentifier::same (QualifiedIdentifier *qid)$/;"	f	class:QualifiedIdentifier
+same	Type.cxx	/^bool ClassType::same (ClassType *set)$/;"	f	class:ClassType
+satisfied	Declaration.cxx	/^bool Declaration::satisfied (ComponentType *component, Array<ClassType> *list)$/;"	f	class:Declaration
+satisfied	Type.cxx	/^bool ClassType::satisfied (Array<ClassType> *list)$/;"	f	class:ClassType
+set	../include/Declaration.hxx	/^		ClassType *set;$/;"	m	class:StateInitializer
+set	../include/Declaration.hxx	/^		ClassType *set;$/;"	m	class:TransitionState
+set	../include/Declaration.hxx	/^		Identifier *set;$/;"	m	class:Delegate
+set	../include/Expression.hxx	/^		ClassType *set;$/;"	m	class:ConstructorCallBySet
+set	../include/Type.hxx	/^		ClassType *set;$/;"	m	class:VTableType
+setBase	NameSpace.cxx	/^void ClassSpace::setBase (ClassSpace *base)$/;"	f	class:ClassSpace
+setBase	Type.cxx	/^void InternalType::setBase (InternalType *base)$/;"	f	class:InternalType
+setBody	Declaration.cxx	/^void ExecutionDeclaration::setBody (BlockStatement *_body)$/;"	f	class:ExecutionDeclaration
+setCallList	Declaration.cxx	/^void ConstructorDeclaration::setCallList (Array<ConstructorCall> *_callList)$/;"	f	class:ConstructorDeclaration
+setContainer	Declaration.cxx	/^void ExecutionDeclaration::setContainer (ClassType *_container)$/;"	f	class:ExecutionDeclaration
+setContainer	Declaration.cxx	/^void PropertyDeclaration::setContainer (ClassType *_container)$/;"	f	class:PropertyDeclaration
+setDelegate	Declaration.cxx	/^void InstanceDeclaration::setDelegate (Array<Delegate> *_delegateList)$/;"	f	class:InstanceDeclaration
+setDesignation	Declaration.cxx	/^void Initializer::setDesignation (Array<Designator> *_designator)$/;"	f	class:Initializer
+setIdentifier	Declaration.cxx	/^void Declaration::setIdentifier (Identifier *_identifier)$/;"	f	class:Declaration
+setInstance	Declaration.cxx	/^void MapDeclaration::setInstance (InstanceDeclaration *_instance)$/;"	f	class:MapDeclaration
+setModifier	Declaration.cxx	/^void Declaration::setModifier (Modifier *_modifier)$/;"	f	class:Declaration
+setName	Component.cxx	/^void ComponentType::setName (QualifiedIdentifier *_qname)$/;"	f	class:ComponentType
+setPName	Type.cxx	/^void ClassType::setPName ()$/;"	f	class:ClassType
+setPackage	Component.cxx	/^void ComponentType::setPackage (QualifiedIdentifier *_package)$/;"	f	class:ComponentType
+setType	Declaration.cxx	/^void Declaration::setType (Type *_type)$/;"	f	class:Declaration
+stateList	../include/Type.hxx	/^		UniqueArray<Identifier> *stateList;$/;"	m	class:InterfaceType
+stateMap	../include/Declaration.hxx	/^		Array<ClassType> *stateMap;$/;"	m	class:MapDeclaration
+statement	../include/Declaration.hxx	/^		Statement *statement;$/;"	m	class:Disambiguation
+statement	../include/Statement.hxx	/^		Statement *statement;$/;"	m	class:DoStatement
+statement	../include/Statement.hxx	/^		Statement *statement;$/;"	m	class:ForStatement
+statement	../include/Statement.hxx	/^		Statement *statement;$/;"	m	class:LabeledStatement
+statement	../include/Statement.hxx	/^		Statement *statement;$/;"	m	class:WhileStatement
+statement0	../include/Statement.hxx	/^		Statement *statement0, *statement1;$/;"	m	class:IfStatement
+statement1	../include/Statement.hxx	/^		Statement *statement0, *statement1;$/;"	m	class:IfStatement
+status	../include/FieldList.hxx	/^		enum FieldStatus {FS_FIELD, FS_TYPE, FS_DUPLICATE} status;$/;"	m	class:FieldListItem	typeref:enum:FieldListItem::FieldStatus
+subList	../include/Type.hxx	/^		Array<InclusionDeclaration> subList;$/;"	m	class:ClassType
+super	../include/NameSpace.hxx	/^		Array<SuperDeclaration> super;$/;"	m	class:ClassSpace
+superList	../include/Type.hxx	/^		Array<SuperDeclaration> superList;$/;"	m	class:ClassType
+target	../include/Mapper.hxx	/^		ClassType *target;$/;"	m	class:Mapper
+thisType	../include/Declaration.hxx	/^		ClassType *thisType;$/;"	m	class:ExecutionDeclaration
+to	../include/Type.hxx	/^		Type *to;$/;"	m	class:TransitionType
+type	../include/Declaration.hxx	/^		Type *type;$/;"	m	class:Declaration
+type	../include/Declaration.hxx	/^		Type *type;$/;"	m	class:StateAttributeDeclaration
+type	../include/Expression.hxx	/^		Type *type;$/;"	m	class:Expression
+type	../include/NameSpace.hxx	/^		NamedType *type;$/;"	m	class:TypeSymbol
+type	../include/Type.hxx	/^		Type *type;$/;"	m	class:TypedefDeclaration
+unificationList	../include/Type.hxx	/^		UnificationList *unificationList;$/;"	m	class:ClassType
+unimplemented	NT.cxx	/^void NT::unimplemented (const char *format, ...)$/;"	f	class:NT
+up	Type.cxx	/^void ClassType::up (Cast *castPath)$/;"	f	class:ClassType
+value	../include/Declaration.hxx	/^		unsigned int value;$/;"	m	class:Modifier
+value	../include/Expression.hxx	/^		const char *value;$/;"	m	class:LiteralExpression
+value	../include/Identifier.hxx	/^		const char *value;$/;"	m	class:Identifier
+value	../include/Type.hxx	/^		Declaration *value;$/;"	m	class:VTDeclaration
+vt	../include/Type.hxx	/^		VTable *vt;$/;"	m	class:InternalType
+vtable	../include/Type.hxx	/^		VTableType vtable;$/;"	m	class:ClassType
+which	../include/Declaration.hxx	/^		enum DeclarationType {DECL_VALUE, DECL_ARGUMENT, DECL_ATTRIBUTE, DECL_CONSTRUCTOR, DECL_METHOD, DECL_INSTANCE, DECL_EXPLICIT, DECL_MAP, DECL_ASSOCIATION, DECL_INCLUSION, DECL_SUPER, DECL_LOCAL, DECL_ENUMERATION} which;$/;"	m	class:Declaration	typeref:enum:Declaration::DeclarationType
+which	../include/NameSpace.hxx	/^		enum SymbolType {SYM_SIMPLE, SYM_POLYMORPHIC, SYM_TYPE} which;$/;"	m	class:Symbol	typeref:enum:Symbol::SymbolType
+which	../include/Type.hxx	/^		enum WhichType {TYPE_ARRAY, TYPE_COMPONENT, TYPE_VOID, TYPE_INTEGER, TYPE_FLOAT, TYPE_CLASS, TYPE_TYPEDEF, TYPE_ENUMERATION, TYPE_TRANSITION, TYPE_EXECUTION, TYPE_NULL} which;$/;"	m	class:Type	typeref:enum:Type::WhichType
+~Array	../include/Array.hxx	/^		~Array ()$/;"	f	class:Array
+~Symbol	../include/NameSpace.hxx	/^		virtual ~Symbol () {}$/;"	f	class:Symbol
